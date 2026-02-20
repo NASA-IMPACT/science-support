@@ -4,7 +4,7 @@
 
 1. Navigate to https://github.com/settings/personal-access-tokens/new
 2. Select public repositories
-3. Add new token as the environment variable specified by `TOKEN_ENV_VAR` in `settings.py` (default: `GH_ODD_PAT`)
+3. Add new token as the environment variable specified by `TOKEN_ENV_VAR` in `settings.py` (default: `GH_PAT`)
 
 ## Configuration
 

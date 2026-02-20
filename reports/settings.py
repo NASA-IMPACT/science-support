@@ -8,13 +8,13 @@ scripts. See docs/adopting.md for the full adoption guide.
 
 # ── Core identifiers ──────────────────────────────────────────────
 GITHUB_ORG = "NASA-IMPACT"
-GITHUB_REPO = "veda-odd"  # repo where objective issues live
-TEAM_NAME = "ODD"  # short name, used in chart titles
-TEAM_DISPLAY_NAME = "VEDA/EODC ODD"  # full name, used in chart caveats
-SITE_URL = "nasa-impact.github.io/veda-odd"  # GitHub Pages URL (no https://)
+GITHUB_REPO = "science-support"  # repo where objective issues live
+TEAM_NAME = "Science Support"  # short name, used in chart titles
+TEAM_DISPLAY_NAME = "VEDA/EODC Science Support"  # full name, used in chart caveats
+SITE_URL = "nasa-impact.github.io/science-support"  # GitHub Pages URL (no https://)
 
 # ── Authentication ────────────────────────────────────────────────
-TOKEN_ENV_VAR = "GH_ODD_PAT"  # env var name for the GitHub PAT
+TOKEN_ENV_VAR = "GH_PAT"  # env var name for the GitHub PAT
 # Also update the secret name in .github/workflows/update-reports.yml
 
 # ── Derived values (do not edit) ──────────────────────────────────
