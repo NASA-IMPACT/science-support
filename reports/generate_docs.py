@@ -88,13 +88,17 @@ def generate_objectives_md() -> str:
     lines.append("## Visualization")
     lines.append("")
     lines.append(
-        "The commits per repository chart uses color-coding to show which objective each repo contributes to. Repos that contribute to multiple objectives are shown with split bars."
+        "The charts use color-coding to show which objective each repo contributes to. Repos that contribute to multiple objectives are shown with split bars."
     )
     lines.append("")
     # Add image for the current PI
     current_pi = sorted_pis[0]
     lines.append(
-        f"![{current_pi.upper()} Commits per Repository](images/{current_pi}.png)"
+        f"![{current_pi.upper()} Commits per Repository](images/{current_pi}-authored-commits.png)"
+    )
+    lines.append("")
+    lines.append(
+        f"![{current_pi.upper()} Resolved issues/PRs](images/{current_pi}-resolved-issues-prs.png)"
     )
     lines.append("")
     lines.append("---")
@@ -111,10 +115,6 @@ def generate_objectives_md() -> str:
     lines.append("cd reports")
     lines.append("uv run generate_docs.py")
     lines.append("```")
-    lines.append("")
-    lines.append(
-        "See [FY26 Roadmap](./fy26-roadmap.md) for the broader context of these objectives."
-    )
 
     return "\n".join(lines)
 

@@ -74,7 +74,11 @@ def main(pi: str = None, show_labels: bool = False):
     if pi is None:
         pi = get_current_pi()
 
-    csv_filename = f"output/{pi}.csv"
+    plot_counts(f"output/{pi}-resolved-issues-prs.csv", pi, title="resolved issues and PRs")
+    plot_counts(f"output/{pi}-authored-commits.csv", pi, title="authored commits")
+
+
+def plot_counts(csv_filename: str, pi: str, title: str, show_labels: bool = False):
     df = pd.read_csv(csv_filename)
 
     # Build repo to objectives mapping and colors
@@ -121,7 +125,7 @@ def main(pi: str = None, show_labels: bool = False):
 
     ax.set_yticks(range(len(commits_per_repo)))
     ax.set_yticklabels(commits_per_repo.index)
-    ax.set_xlabel("Number of Commits", fontsize=16, loc="left")
+    ax.set_xlabel("Count", fontsize=16, loc="left")
     ax.tick_params(axis="y", labelsize=13)
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.grid(axis="x", alpha=0.3)
@@ -142,7 +146,7 @@ def main(pi: str = None, show_labels: bool = False):
     plt.subplots_adjust(left=0.3)
 
     ax.set_title(
-        f"{pi.upper()} {TEAM_NAME}'s commits to the default branch",
+        f"{pi.upper()} {TEAM_NAME} {title}",
         fontsize=24,
         fontweight="bold",
     )
@@ -169,7 +173,7 @@ def main(pi: str = None, show_labels: bool = False):
     caveats = (
         "Caveats:\n"
         "- Only community-governed open source repositories are tracked\n"
-        "- Merged PRs counted as one commit\n"
+        "- Merged PRs counted as one\n"
         "- Individual changes may span multiple PRs\n"
         "- Split bars indicate repos in multiple objectives\n"
         f"- Includes all open source work by {TEAM_DISPLAY_NAME} team members\n\n"
@@ -193,7 +197,7 @@ def main(pi: str = None, show_labels: bool = False):
     docs_images = Path(__file__).parent.parent / "docs" / "images"
     docs_images.mkdir(exist_ok=True)
     plt.savefig(
-        docs_images / f"{pi}.png",
+        docs_images / Path(csv_filename).name.replace(".csv", ".png"),
         bbox_inches="tight",
         dpi=150,
     )
