@@ -222,7 +222,11 @@ def main(token: str = None, pi: str = None, max_workers: int = 10):
     df.to_csv(csv_filename, index=False)
     print(f"Saved to {csv_filename}")
 
-    df_resolved = pd.DataFrame(all_resolved).drop_duplicates(subset=["number", "organization", "repository"])
+    df_resolved = (
+        pd.DataFrame(all_resolved)
+            .drop_duplicates(subset=["organization", "repository", "number"])
+            .sort_values(by=["organization", "repository", "number"])
+    )
     resolved_filename = f"output/{pi}-resolved-issues-prs.csv"
     df_resolved.to_csv(resolved_filename, index=False)
     print(f"Saved to {resolved_filename}")
