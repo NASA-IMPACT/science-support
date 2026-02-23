@@ -1,9 +1,9 @@
 number,title,type,state,author,url,created_at,updated_at,organization,repository,contributor
-1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 267,Remove dask gateway example,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/267,2026-01-26T23:02:53+00:00,2026-01-27T18:41:35+00:00,NASA-IMPACT,veda-docs,wildintellect
 58,Add arbalister to environment,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/58,2026-02-11T19:34:25+00:00,2026-02-12T19:23:19+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 57,Release 2025.12.30-v1,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/57,2026-01-27T19:28:33+00:00,2026-02-05T14:17:23+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 54,Upgrade to pangeo-notebook 2025.12.30,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/54,2026-01-02T17:28:39+00:00,2026-01-27T19:22:08+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
+1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 11148,Incosistent copy default between Dataset and DataArray,Issue,closed,mousey92,https://github.com/pydata/xarray/issues/11148,2026-02-09T08:44:08+00:00,2026-02-11T18:01:28+00:00,pydata,xarray,jsignell
 11141,Nightly Hypothesis tests failed,Issue,closed,github-actions[bot],https://github.com/pydata/xarray/issues/11141,2026-02-07T00:44:22+00:00,2026-02-10T17:52:28+00:00,pydata,xarray,jsignell
 11133,Array value assignment via `.values` and `.data` fails with Pandas 3.0.0 (assignment destination is read-only),Issue,closed,tomvothecoder,https://github.com/pydata/xarray/issues/11133,2026-02-04T00:30:45+00:00,2026-02-06T14:48:41+00:00,pydata,xarray,jsignell
