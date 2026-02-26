@@ -6,6 +6,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 58,Add arbalister to environment,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/58,2026-02-11T19:34:25+00:00,2026-02-12T19:23:19+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 267,Remove dask gateway example,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/267,2026-01-26T23:02:53+00:00,2026-01-27T18:41:35+00:00,NASA-IMPACT,veda-docs,wildintellect
 268,hvplot interactions broken,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/268,2026-01-26T23:06:17+00:00,2026-01-27T18:42:11+00:00,NASA-IMPACT,veda-docs,jsignell
+269,Remove unused rio import,PR,closed,abarciauskas-bgse,https://github.com/NASA-IMPACT/veda-docs/pull/269,2026-02-24T15:11:40+00:00,2026-02-24T17:49:10+00:00,NASA-IMPACT,veda-docs,jsignell
 9298,"How to pass compression level to_parquet, to_zarr [docs]",Issue,closed,ncclementi,https://github.com/dask/dask/issues/9298,2022-07-22T14:35:49+00:00,2026-02-05T16:15:41+00:00,dask,dask,jsignell
 12221,Better CPU affinity detection,PR,closed,crusaderky,https://github.com/dask/dask/pull/12221,2026-01-06T17:05:45+00:00,2026-01-28T17:53:15+00:00,dask,dask,jsignell
 12223,Preliminary Python 3.14t support,PR,closed,crusaderky,https://github.com/dask/dask/pull/12223,2026-01-06T17:51:09+00:00,2026-02-04T15:29:49+00:00,dask,dask,jsignell
@@ -14,6 +15,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 9374,Reading data after saving data from masked arrays results in different numbers,Issue,closed,adriaat,https://github.com/pydata/xarray/issues/9374,2024-08-17T13:20:58+00:00,2026-02-17T15:23:38+00:00,pydata,xarray,jsignell
 9400,`__array__` copy keyword DeprecationWarnings in `indexing.py`,Issue,closed,dcamron,https://github.com/pydata/xarray/issues/9400,2024-08-22T22:51:20+00:00,2026-01-28T16:03:25+00:00,pydata,xarray,jsignell
 10061,Saving an extracted netCDF file is far too time consuming,Issue,closed,susiebrn,https://github.com/pydata/xarray/issues/10061,2025-02-19T11:56:48+00:00,2026-02-11T18:32:27+00:00,pydata,xarray,jsignell
+10110,Mypy failures with MultiIndex,Issue,closed,jsignell,https://github.com/pydata/xarray/issues/10110,2025-03-10T18:01:39+00:00,2026-02-25T21:04:24+00:00,pydata,xarray,jsignell
 10123,Should What's New always use `:verbatim:`?,Issue,closed,jsignell,https://github.com/pydata/xarray/issues/10123,2025-03-13T21:31:28+00:00,2026-02-12T14:37:34+00:00,pydata,xarray,jsignell
 10759,Order of aggregation with skipna matters,Issue,closed,DominikStiller,https://github.com/pydata/xarray/issues/10759,2025-09-17T16:30:21+00:00,2026-01-22T14:33:19+00:00,pydata,xarray,jsignell
 10788,Ensure netcdf4 is locked while closing,PR,closed,dschwoerer,https://github.com/pydata/xarray/pull/10788,2025-09-24T22:02:30+00:00,2026-01-28T15:16:03+00:00,pydata,xarray,jsignell
@@ -49,6 +51,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 11160,MAINT: Add linkcheck Pixi task,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11160,2026-02-11T13:38:20+00:00,2026-02-11T22:29:19+00:00,pydata,xarray,jsignell
 11161,DOC: Fix broken links (404 errors),PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11161,2026-02-11T13:39:43+00:00,2026-02-11T20:58:40+00:00,pydata,xarray,jsignell
 11182,Fix a typo in variable.py,PR,closed,yaochengchen,https://github.com/pydata/xarray/pull/11182,2026-02-20T06:27:11+00:00,2026-02-23T14:56:25+00:00,pydata,xarray,jsignell
+11201,MAINT: Bump version to pixi-lock caching action,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11201,2026-02-24T12:48:46+00:00,2026-02-25T10:56:00+00:00,pydata,xarray,jsignell
 1561,feat: update storage extension to v2.0.0,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1561,2025-06-02T15:00:08+00:00,2026-02-06T12:41:07+00:00,stac-utils,pystac,jsignell
 1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 1641,ci: fix warning,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1641,2026-01-26T16:08:14+00:00,2026-01-27T16:06:50+00:00,stac-utils,pystac,jsignell
