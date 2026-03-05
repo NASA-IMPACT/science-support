@@ -17,6 +17,13 @@ from github import Github, Auth
 from settings import REPO_FULL_NAME, TOKEN_ENV_VAR
 
 
+# Labels have length limits, to get around this use an abbreviation 
+# and add it to this mapping
+LONG_ORG_NAME_MAPPING = {
+    "cng": "cloudnativegeo"
+}
+
+
 def get_objective_issues(g: Github, repo_name: str = REPO_FULL_NAME):
     """Fetch all issues with pi-*-objective labels using search API."""
     objectives_by_pi = {}
@@ -43,6 +50,9 @@ def get_objective_issues(g: Github, repo_name: str = REPO_FULL_NAME):
                 repo_str = label.name[5:]  # Remove "repo:" prefix
                 if "/" in repo_str:
                     org, repo_name_part = repo_str.split("/", 1)
+                    # Replace org abbreviations with full names
+                    if org in LONG_ORG_NAME_MAPPING:
+                        org = LONG_ORG_NAME_MAPPING[org]
                     repos.append((org, repo_name_part))
 
         if pi:
