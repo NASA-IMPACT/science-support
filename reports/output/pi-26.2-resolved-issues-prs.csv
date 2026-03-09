@@ -12,6 +12,9 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 559,Minor shuffling for merging the develop to master branch,PR,closed,omshinde,https://github.com/MAAP-Project/maap-documentation/pull/559,2026-02-06T20:39:00+00:00,2026-02-06T22:06:27+00:00,MAAP-Project,maap-documentation,wildintellect
 560,Fix redundant names,PR,closed,omshinde,https://github.com/MAAP-Project/maap-documentation/pull/560,2026-02-06T23:47:56+00:00,2026-02-07T02:38:57+00:00,MAAP-Project,maap-documentation,wildintellect
 561,Update image descriptions,PR,closed,grallewellyn,https://github.com/MAAP-Project/maap-documentation/pull/561,2026-02-12T18:29:12+00:00,2026-02-13T01:39:39+00:00,MAAP-Project,maap-documentation,wildintellect
+562,Nisar dem notebook,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/562,2026-02-12T22:45:30+00:00,2026-03-06T20:43:42+00:00,MAAP-Project,maap-documentation,wildintellect
+567,Pointing to VEDA docs for SSH instructions ,PR,closed,grallewellyn,https://github.com/MAAP-Project/maap-documentation/pull/567,2026-03-05T17:03:11+00:00,2026-03-05T18:27:06+00:00,MAAP-Project,maap-documentation,wildintellect
+568,rearrange cells,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/568,2026-03-06T18:01:01+00:00,2026-03-06T18:31:02+00:00,MAAP-Project,maap-documentation,wildintellect
 51,Remove `stac_ipyleaflet`,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/51,2025-12-03T21:25:30+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
 52,Once it's available - Update to new pangeo image,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/52,2025-12-08T16:28:06+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
 54,Upgrade to pangeo-notebook 2025.12.30,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/54,2026-01-02T17:28:39+00:00,2026-01-27T19:22:08+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
@@ -24,7 +27,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 12221,Better CPU affinity detection,PR,closed,crusaderky,https://github.com/dask/dask/pull/12221,2026-01-06T17:05:45+00:00,2026-01-28T17:53:15+00:00,dask,dask,jsignell
 12223,Preliminary Python 3.14t support,PR,closed,crusaderky,https://github.com/dask/dask/pull/12223,2026-01-06T17:51:09+00:00,2026-02-04T15:29:49+00:00,dask,dask,jsignell
 12224,Propagate contextvars to worker threads; catch warnings in 3.14t,PR,closed,crusaderky,https://github.com/dask/dask/pull/12224,2026-01-06T17:58:31+00:00,2026-02-04T14:26:31+00:00,dask,dask,jsignell
-12274,Stricter warnings filter,PR,closed,crusaderky,https://github.com/dask/dask/pull/12274,2026-02-04T18:08:03+00:00,2026-03-04T11:56:05+00:00,dask,dask,jsignell
+12274,Stricter warnings filter,PR,closed,crusaderky,https://github.com/dask/dask/pull/12274,2026-02-04T18:08:03+00:00,2026-03-06T14:10:29+00:00,dask,dask,jsignell
 12279,Clean up obsolete PANDAS_GE markers,PR,closed,crusaderky,https://github.com/dask/dask/pull/12279,2026-02-05T14:03:35+00:00,2026-03-04T10:14:13+00:00,dask,dask,jsignell
 640,"Unpin intake-esm, includes polars",PR,closed,weiji14,https://github.com/pangeo-data/pangeo-docker-images/pull/640,2026-01-28T19:54:33+00:00,2026-01-30T21:20:44+00:00,pangeo-data,pangeo-docker-images,jsignell
 4579,Invisible differences between arrays using IntervalIndex,Issue,closed,gerritholl,https://github.com/pydata/xarray/issues/4579,2020-11-12T17:54:55+00:00,2026-02-27T19:02:25+00:00,pydata,xarray,jsignell
