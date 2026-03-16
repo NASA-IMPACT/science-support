@@ -20,9 +20,12 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 54,Upgrade to pangeo-notebook 2025.12.30,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/54,2026-01-02T17:28:39+00:00,2026-01-27T19:22:08+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 57,Release 2025.12.30-v1,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/57,2026-01-27T19:28:33+00:00,2026-02-05T14:17:23+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 58,Add arbalister to environment,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/58,2026-02-11T19:34:25+00:00,2026-02-12T19:23:19+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
+238,Switch to odc-stac once it works in pangeo-notebook image,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/238,2025-07-25T18:21:39+00:00,2026-03-13T16:53:14+00:00,NASA-IMPACT,veda-docs,jsignell
 267,Remove dask gateway example,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/267,2026-01-26T23:02:53+00:00,2026-01-27T18:41:35+00:00,NASA-IMPACT,veda-docs,wildintellect
 268,hvplot interactions broken,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/268,2026-01-26T23:06:17+00:00,2026-01-27T18:42:11+00:00,NASA-IMPACT,veda-docs,jsignell
 269,Remove unused rio import,PR,closed,abarciauskas-bgse,https://github.com/NASA-IMPACT/veda-docs/pull/269,2026-02-24T15:11:40+00:00,2026-02-24T17:49:10+00:00,NASA-IMPACT,veda-docs,jsignell
+270,Replace stackstac with odc-stac,PR,closed,tylanderson,https://github.com/NASA-IMPACT/veda-docs/pull/270,2026-03-10T21:59:55+00:00,2026-03-13T16:53:17+00:00,NASA-IMPACT,veda-docs,jsignell
+178,Add Tissot cookbook for vector data validation,PR,closed,chrislyonsKY,https://github.com/cloudnativegeo/cloud-optimized-geospatial-formats-guide/pull/178,2026-03-07T16:03:16+00:00,2026-03-10T16:45:51+00:00,cloudnativegeo,cloud-optimized-geospatial-formats-guide,wildintellect
 9298,"How to pass compression level to_parquet, to_zarr [docs]",Issue,closed,ncclementi,https://github.com/dask/dask/issues/9298,2022-07-22T14:35:49+00:00,2026-02-05T16:15:41+00:00,dask,dask,jsignell
 12221,Better CPU affinity detection,PR,closed,crusaderky,https://github.com/dask/dask/pull/12221,2026-01-06T17:05:45+00:00,2026-01-28T17:53:15+00:00,dask,dask,jsignell
 12223,Preliminary Python 3.14t support,PR,closed,crusaderky,https://github.com/dask/dask/pull/12223,2026-01-06T17:51:09+00:00,2026-02-04T15:29:49+00:00,dask,dask,jsignell
@@ -72,11 +75,16 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 11172,Test dependency fixes,PR,closed,BorisTheBrave,https://github.com/pydata/xarray/pull/11172,2026-02-14T10:13:22+00:00,2026-02-26T22:43:27+00:00,pydata,xarray,jsignell
 11181,Fix a typo in dataset.py,PR,closed,yaochengchen,https://github.com/pydata/xarray/pull/11181,2026-02-20T06:21:59+00:00,2026-02-28T23:17:26+00:00,pydata,xarray,jsignell
 11182,Fix a typo in variable.py,PR,closed,yaochengchen,https://github.com/pydata/xarray/pull/11182,2026-02-20T06:27:11+00:00,2026-02-23T14:56:25+00:00,pydata,xarray,jsignell
+11183,2 tests failures,Issue,closed,doronbehar,https://github.com/pydata/xarray/issues/11183,2026-02-20T14:19:26+00:00,2026-03-11T08:39:14+00:00,pydata,xarray,jsignell
 11190,Wrong indentation when generating aggregations,Issue,closed,Illviljan,https://github.com/pydata/xarray/issues/11190,2026-02-21T08:46:30+00:00,2026-03-01T09:40:35+00:00,pydata,xarray,jsignell
 11191,Add pixi environment to xr.show_versions?,Issue,closed,Illviljan,https://github.com/pydata/xarray/issues/11191,2026-02-21T08:53:29+00:00,2026-03-03T16:20:09+00:00,pydata,xarray,jsignell
+11195,Update pre-commit hooks,PR,closed,DimitriPapadopoulos,https://github.com/pydata/xarray/pull/11195,2026-02-22T13:31:15+00:00,2026-03-10T21:53:34+00:00,pydata,xarray,jsignell
 11200,Pandas 3 support,Issue,closed,headtr1ck,https://github.com/pydata/xarray/issues/11200,2026-02-24T09:00:58+00:00,2026-03-03T16:11:35+00:00,pydata,xarray,jsignell
 11201,MAINT: Bump version to pixi-lock caching action,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11201,2026-02-24T12:48:46+00:00,2026-02-25T10:56:00+00:00,pydata,xarray,jsignell
 11209,Dataset used in `ds in ...` statements have un-intuitive behaviour,Issue,closed,VeckoTheGecko,https://github.com/pydata/xarray/issues/11209,2026-03-02T15:35:08+00:00,2026-03-03T22:19:22+00:00,pydata,xarray,jsignell
+11211,Update pre-commit hooks,PR,closed,pre-commit-ci[bot],https://github.com/pydata/xarray/pull/11211,2026-03-02T19:36:47+00:00,2026-03-10T21:04:26+00:00,pydata,xarray,jsignell
+11220,Kerchunk file read failed when change from 2025.9.1 to 2026.2.0,Issue,closed,chiaweh2,https://github.com/pydata/xarray/issues/11220,2026-03-09T15:47:44+00:00,2026-03-13T17:37:45+00:00,pydata,xarray,jsignell
+11227,Should xarray stop type checking tests?,Issue,closed,jsignell,https://github.com/pydata/xarray/issues/11227,2026-03-13T20:27:10+00:00,2026-03-16T12:35:57+00:00,pydata,xarray,jsignell
 1561,feat: update storage extension to v2.0.0,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1561,2025-06-02T15:00:08+00:00,2026-02-06T12:41:07+00:00,stac-utils,pystac,jsignell
 1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 1641,ci: fix warning,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1641,2026-01-26T16:08:14+00:00,2026-01-27T16:06:50+00:00,stac-utils,pystac,jsignell
