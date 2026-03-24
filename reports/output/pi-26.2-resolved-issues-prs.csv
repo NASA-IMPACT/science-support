@@ -15,6 +15,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 562,Nisar dem notebook,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/562,2026-02-12T22:45:30+00:00,2026-03-06T20:43:42+00:00,MAAP-Project,maap-documentation,wildintellect
 567,Pointing to VEDA docs for SSH instructions ,PR,closed,grallewellyn,https://github.com/MAAP-Project/maap-documentation/pull/567,2026-03-05T17:03:11+00:00,2026-03-05T18:27:06+00:00,MAAP-Project,maap-documentation,wildintellect
 568,rearrange cells,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/568,2026-03-06T18:01:01+00:00,2026-03-06T18:31:02+00:00,MAAP-Project,maap-documentation,wildintellect
+573,Refactor NISAR access notebook to separate S3 and HTTPS workflows,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/573,2026-03-17T20:03:28+00:00,2026-03-20T16:35:25+00:00,MAAP-Project,maap-documentation,wildintellect
 51,Remove `stac_ipyleaflet`,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/51,2025-12-03T21:25:30+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
 52,Once it's available - Update to new pangeo image,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/52,2025-12-08T16:28:06+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
 54,Upgrade to pangeo-notebook 2025.12.30,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/54,2026-01-02T17:28:39+00:00,2026-01-27T19:22:08+00:00,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
@@ -79,15 +80,23 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 11190,Wrong indentation when generating aggregations,Issue,closed,Illviljan,https://github.com/pydata/xarray/issues/11190,2026-02-21T08:46:30+00:00,2026-03-01T09:40:35+00:00,pydata,xarray,jsignell
 11191,Add pixi environment to xr.show_versions?,Issue,closed,Illviljan,https://github.com/pydata/xarray/issues/11191,2026-02-21T08:53:29+00:00,2026-03-03T16:20:09+00:00,pydata,xarray,jsignell
 11195,Update pre-commit hooks,PR,closed,DimitriPapadopoulos,https://github.com/pydata/xarray/pull/11195,2026-02-22T13:31:15+00:00,2026-03-10T21:53:34+00:00,pydata,xarray,jsignell
+11199,Datasets concatenated along string dimension cannot write to netCDF,Issue,closed,digbyr,https://github.com/pydata/xarray/issues/11199,2026-02-23T18:19:35+00:00,2026-03-18T18:50:45+00:00,pydata,xarray,jsignell
 11200,Pandas 3 support,Issue,closed,headtr1ck,https://github.com/pydata/xarray/issues/11200,2026-02-24T09:00:58+00:00,2026-03-03T16:11:35+00:00,pydata,xarray,jsignell
 11201,MAINT: Bump version to pixi-lock caching action,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11201,2026-02-24T12:48:46+00:00,2026-02-25T10:56:00+00:00,pydata,xarray,jsignell
 11209,Dataset used in `ds in ...` statements have un-intuitive behaviour,Issue,closed,VeckoTheGecko,https://github.com/pydata/xarray/issues/11209,2026-03-02T15:35:08+00:00,2026-03-03T22:19:22+00:00,pydata,xarray,jsignell
 11211,Update pre-commit hooks,PR,closed,pre-commit-ci[bot],https://github.com/pydata/xarray/pull/11211,2026-03-02T19:36:47+00:00,2026-03-10T21:04:26+00:00,pydata,xarray,jsignell
+11218,Allow writing StringDType variables to netCDF,PR,closed,kkollsga,https://github.com/pydata/xarray/pull/11218,2026-03-08T22:37:57+00:00,2026-03-18T18:50:44+00:00,pydata,xarray,jsignell
 11220,Kerchunk file read failed when change from 2025.9.1 to 2026.2.0,Issue,closed,chiaweh2,https://github.com/pydata/xarray/issues/11220,2026-03-09T15:47:44+00:00,2026-03-13T17:37:45+00:00,pydata,xarray,jsignell
-11227,Should xarray stop type checking tests?,Issue,closed,jsignell,https://github.com/pydata/xarray/issues/11227,2026-03-13T20:27:10+00:00,2026-03-16T12:35:57+00:00,pydata,xarray,jsignell
+11227,Should xarray stop type checking tests?,Issue,closed,jsignell,https://github.com/pydata/xarray/issues/11227,2026-03-13T20:27:10+00:00,2026-03-16T14:51:22+00:00,pydata,xarray,jsignell
+11231,maint: bump minimum dependency versions according to policy,PR,closed,jhamman,https://github.com/pydata/xarray/pull/11231,2026-03-14T13:38:12+00:00,2026-03-19T18:38:10+00:00,pydata,xarray,jsignell
+11235,combine_by_coords fails when aligning axes containing time zone information,Issue,closed,mgunyho,https://github.com/pydata/xarray/issues/11235,2026-03-16T10:20:23+00:00,2026-03-20T09:44:13+00:00,pydata,xarray,jsignell
+11244,fix: handle `PandasIndex` promotion of dtypes,PR,closed,ilan-gold,https://github.com/pydata/xarray/pull/11244,2026-03-18T10:26:10+00:00,2026-03-20T09:44:11+00:00,pydata,xarray,jsignell
+12,Add markdown linting,Issue,closed,gadomski,https://github.com/radiantearth/stac-best-practices/issues/12,2025-10-08T12:03:55+00:00,2026-03-16T15:14:28+00:00,radiantearth,stac-best-practices,jsignell
+43,feat: add linting,PR,closed,gadomski,https://github.com/radiantearth/stac-best-practices/pull/43,2025-12-05T20:41:01+00:00,2026-03-16T15:14:28+00:00,radiantearth,stac-best-practices,jsignell
 1561,feat: update storage extension to v2.0.0,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1561,2025-06-02T15:00:08+00:00,2026-02-06T12:41:07+00:00,stac-utils,pystac,jsignell
 1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 1641,ci: fix warning,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1641,2026-01-26T16:08:14+00:00,2026-01-27T16:06:50+00:00,stac-utils,pystac,jsignell
 1645,build(deps): bump actions/setup-python from 6.1.0 to 6.2.0 in the actions-deps group,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1645,2026-02-02T16:09:39+00:00,2026-02-02T16:21:09+00:00,stac-utils,pystac,jsignell
 1648,build(deps): bump cryptography from 45.0.6 to 46.0.5,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1648,2026-02-11T02:29:22+00:00,2026-02-12T13:52:54+00:00,stac-utils,pystac,jsignell
+1658,test: enable posix path tests,PR,closed,ircwaves,https://github.com/stac-utils/pystac/pull/1658,2026-03-16T14:53:55+00:00,2026-03-16T16:11:34+00:00,stac-utils,pystac,jsignell
 870,build(deps-dev): bump ruff from 0.15.1 to 0.15.2,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac-client/pull/870,2026-02-20T02:13:10+00:00,2026-02-20T17:02:56+00:00,stac-utils,pystac-client,jsignell
