@@ -15,6 +15,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 562,Nisar dem notebook,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/562,2026-02-12T22:45:30+00:00,2026-03-06T20:43:42+00:00,MAAP-Project,maap-documentation,wildintellect
 567,Pointing to VEDA docs for SSH instructions ,PR,closed,grallewellyn,https://github.com/MAAP-Project/maap-documentation/pull/567,2026-03-05T17:03:11+00:00,2026-03-05T18:27:06+00:00,MAAP-Project,maap-documentation,wildintellect
 568,rearrange cells,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/568,2026-03-06T18:01:01+00:00,2026-03-06T18:31:02+00:00,MAAP-Project,maap-documentation,wildintellect
+569,nisar and other updates,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/569,2026-03-06T21:37:16+00:00,2026-03-24T01:23:11+00:00,MAAP-Project,maap-documentation,wildintellect
 573,Refactor NISAR access notebook to separate S3 and HTTPS workflows,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/573,2026-03-17T20:03:28+00:00,2026-03-20T16:35:25+00:00,MAAP-Project,maap-documentation,wildintellect
 51,Remove `stac_ipyleaflet`,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/51,2025-12-03T21:25:30+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
 52,Once it's available - Update to new pangeo image,Issue,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/52,2025-12-08T16:28:06+00:00,2026-01-27T19:22:04+00:00,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
@@ -26,10 +27,11 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 268,hvplot interactions broken,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/268,2026-01-26T23:06:17+00:00,2026-01-27T18:42:11+00:00,NASA-IMPACT,veda-docs,jsignell
 269,Remove unused rio import,PR,closed,abarciauskas-bgse,https://github.com/NASA-IMPACT/veda-docs/pull/269,2026-02-24T15:11:40+00:00,2026-02-24T17:49:10+00:00,NASA-IMPACT,veda-docs,jsignell
 270,Replace stackstac with odc-stac,PR,closed,tylanderson,https://github.com/NASA-IMPACT/veda-docs/pull/270,2026-03-10T21:59:55+00:00,2026-03-13T16:53:17+00:00,NASA-IMPACT,veda-docs,jsignell
+27,Zarr for Points,Issue,closed,wildintellect,https://github.com/cloudnativegeo/cloud-optimized-geospatial-formats-guide/issues/27,2023-08-17T23:37:23+00:00,2026-03-27T15:23:18+00:00,cloudnativegeo,cloud-optimized-geospatial-formats-guide,wildintellect
 178,Add Tissot cookbook for vector data validation,PR,closed,chrislyonsKY,https://github.com/cloudnativegeo/cloud-optimized-geospatial-formats-guide/pull/178,2026-03-07T16:03:16+00:00,2026-03-10T16:45:51+00:00,cloudnativegeo,cloud-optimized-geospatial-formats-guide,wildintellect
 9298,"How to pass compression level to_parquet, to_zarr [docs]",Issue,closed,ncclementi,https://github.com/dask/dask/issues/9298,2022-07-22T14:35:49+00:00,2026-02-05T16:15:41+00:00,dask,dask,jsignell
 12221,Better CPU affinity detection,PR,closed,crusaderky,https://github.com/dask/dask/pull/12221,2026-01-06T17:05:45+00:00,2026-01-28T17:53:15+00:00,dask,dask,jsignell
-12223,Preliminary Python 3.14t support,PR,closed,crusaderky,https://github.com/dask/dask/pull/12223,2026-01-06T17:51:09+00:00,2026-02-04T15:29:49+00:00,dask,dask,jsignell
+12223,Preliminary Python 3.14t support,PR,closed,crusaderky,https://github.com/dask/dask/pull/12223,2026-01-06T17:51:09+00:00,2026-03-24T08:15:19+00:00,dask,dask,jsignell
 12224,Propagate contextvars to worker threads; catch warnings in 3.14t,PR,closed,crusaderky,https://github.com/dask/dask/pull/12224,2026-01-06T17:58:31+00:00,2026-02-04T14:26:31+00:00,dask,dask,jsignell
 12274,Stricter warnings filter,PR,closed,crusaderky,https://github.com/dask/dask/pull/12274,2026-02-04T18:08:03+00:00,2026-03-06T14:10:29+00:00,dask,dask,jsignell
 12279,Clean up obsolete PANDAS_GE markers,PR,closed,crusaderky,https://github.com/dask/dask/pull/12279,2026-02-05T14:03:35+00:00,2026-03-04T10:14:13+00:00,dask,dask,jsignell
