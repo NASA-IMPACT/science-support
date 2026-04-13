@@ -27,7 +27,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 268,hvplot interactions broken,Issue,closed,jsignell,https://github.com/NASA-IMPACT/veda-docs/issues/268,2026-01-26T23:06:17+00:00,2026-01-27T18:42:11+00:00,NASA-IMPACT,veda-docs,jsignell
 269,Remove unused rio import,PR,closed,abarciauskas-bgse,https://github.com/NASA-IMPACT/veda-docs/pull/269,2026-02-24T15:11:40+00:00,2026-02-24T17:49:10+00:00,NASA-IMPACT,veda-docs,jsignell
 270,Replace stackstac with odc-stac,PR,closed,tylanderson,https://github.com/NASA-IMPACT/veda-docs/pull/270,2026-03-10T21:59:55+00:00,2026-03-13T16:53:17+00:00,NASA-IMPACT,veda-docs,jsignell
-274,ci: add Dependabot for GitHub Actions version updates,PR,closed,lhoupert,https://github.com/NASA-IMPACT/veda-docs/pull/274,2026-04-02T16:15:54+00:00,2026-04-06T12:53:24+00:00,NASA-IMPACT,veda-docs,jsignell
+274,ci: add Dependabot for GitHub Actions version updates,PR,closed,lhoupert,https://github.com/NASA-IMPACT/veda-docs/pull/274,2026-04-02T16:15:54+00:00,2026-04-06T15:06:47+00:00,NASA-IMPACT,veda-docs,jsignell
 178,Add Tissot cookbook for vector data validation,PR,closed,chrislyonsKY,https://github.com/cloudnativegeo/cloud-optimized-geospatial-formats-guide/pull/178,2026-03-07T16:03:16+00:00,2026-03-10T16:45:51+00:00,cloudnativegeo,cloud-optimized-geospatial-formats-guide,wildintellect
 9298,"How to pass compression level to_parquet, to_zarr [docs]",Issue,closed,ncclementi,https://github.com/dask/dask/issues/9298,2022-07-22T14:35:49+00:00,2026-02-05T16:15:41+00:00,dask,dask,jsignell
 12221,Better CPU affinity detection,PR,closed,crusaderky,https://github.com/dask/dask/pull/12221,2026-01-06T17:05:45+00:00,2026-01-28T17:53:15+00:00,dask,dask,jsignell
@@ -68,10 +68,12 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 11133,Array value assignment via `.values` and `.data` fails with Pandas 3.0.0 (assignment destination is read-only),Issue,closed,tomvothecoder,https://github.com/pydata/xarray/issues/11133,2026-02-04T00:30:45+00:00,2026-02-06T14:48:41+00:00,pydata,xarray,jsignell
 11137,add osx-64 to the pixi config.,PR,closed,ChrisBarker-NOAA,https://github.com/pydata/xarray/pull/11137,2026-02-05T20:40:20+00:00,2026-02-10T17:54:13+00:00,pydata,xarray,jsignell
 11138,"MAINT(pixi): Update listed xarray version, and update docs cfgrib definition",PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11138,2026-02-05T22:24:26+00:00,2026-02-06T15:35:37+00:00,pydata,xarray,jsignell
+11139,Raise TypeError when Dataset passed as data_vars to Dataset constructor,PR,closed,kkollsga,https://github.com/pydata/xarray/pull/11139,2026-02-06T18:08:30+00:00,2026-04-09T15:16:21+00:00,pydata,xarray,jsignell
 11141,Nightly Hypothesis tests failed,Issue,closed,github-actions[bot],https://github.com/pydata/xarray/issues/11141,2026-02-07T00:44:22+00:00,2026-02-10T17:52:28+00:00,pydata,xarray,jsignell
 11146,temporarily silence shape assignment warnings raised in `netCDF4`,PR,closed,keewis,https://github.com/pydata/xarray/pull/11146,2026-02-07T22:34:36+00:00,2026-02-11T19:18:30+00:00,pydata,xarray,jsignell
 11148,Incosistent copy default between Dataset and DataArray,Issue,closed,mousey92,https://github.com/pydata/xarray/issues/11148,2026-02-09T08:44:08+00:00,2026-02-11T18:01:28+00:00,pydata,xarray,jsignell
 11150,Raise FileNotFoundError for missing local files in guess_engine,PR,closed,kkollsga,https://github.com/pydata/xarray/pull/11150,2026-02-09T20:35:53+00:00,2026-02-10T22:03:55+00:00,pydata,xarray,jsignell
+11151,Add complex dtype support to FillValueCoder for Zarr backend,PR,closed,maxrjones,https://github.com/pydata/xarray/pull/11151,2026-02-09T20:40:27+00:00,2026-04-09T17:41:01+00:00,pydata,xarray,jsignell
 11154,MAINT: Set requires-pixi in pixi.toml,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11154,2026-02-10T12:31:53+00:00,2026-02-23T15:56:53+00:00,pydata,xarray,jsignell
 11160,MAINT: Add linkcheck Pixi task,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11160,2026-02-11T13:38:20+00:00,2026-02-11T22:29:19+00:00,pydata,xarray,jsignell
 11161,DOC: Fix broken links (404 errors),PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11161,2026-02-11T13:39:43+00:00,2026-02-11T20:58:40+00:00,pydata,xarray,jsignell
@@ -94,15 +96,25 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 11235,combine_by_coords fails when aligning axes containing time zone information,Issue,closed,mgunyho,https://github.com/pydata/xarray/issues/11235,2026-03-16T10:20:23+00:00,2026-03-20T09:44:13+00:00,pydata,xarray,jsignell
 11244,fix: handle `PandasIndex` promotion of dtypes,PR,closed,ilan-gold,https://github.com/pydata/xarray/pull/11244,2026-03-18T10:26:10+00:00,2026-03-20T09:44:11+00:00,pydata,xarray,jsignell
 11257,Add AI policy,PR,closed,VeckoTheGecko,https://github.com/pydata/xarray/pull/11257,2026-03-25T10:51:13+00:00,2026-04-02T10:24:56+00:00,pydata,xarray,jsignell
+11283,Update pre-commit hooks,PR,closed,pre-commit-ci[bot],https://github.com/pydata/xarray/pull/11283,2026-04-06T19:34:48+00:00,2026-04-09T14:45:22+00:00,pydata,xarray,jsignell
 12,Add markdown linting,Issue,closed,gadomski,https://github.com/radiantearth/stac-best-practices/issues/12,2025-10-08T12:03:55+00:00,2026-03-16T15:14:28+00:00,radiantearth,stac-best-practices,jsignell
+34,Best practices for doing a STAC of GeoParquet,Issue,closed,cholmes,https://github.com/radiantearth/stac-best-practices/issues/34,2025-11-07T14:54:13+00:00,2026-04-07T13:16:58+00:00,radiantearth,stac-best-practices,jsignell
 43,feat: add linting,PR,closed,gadomski,https://github.com/radiantearth/stac-best-practices/pull/43,2025-12-05T20:41:01+00:00,2026-03-16T15:14:28+00:00,radiantearth,stac-best-practices,jsignell
 1561,feat: update storage extension to v2.0.0,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1561,2025-06-02T15:00:08+00:00,2026-02-06T12:41:07+00:00,stac-utils,pystac,jsignell
+1591,Archiveextension,PR,closed,kmodali,https://github.com/stac-utils/pystac/pull/1591,2025-10-16T15:12:31+00:00,2026-04-07T13:54:23+00:00,stac-utils,pystac,jsignell
 1598,Storage extension is still on v1.0.0,Issue,closed,thomas-maschler,https://github.com/stac-utils/pystac/issues/1598,2025-12-04T23:47:33+00:00,2026-02-06T12:41:08+00:00,stac-utils,pystac,tylanderson
 1641,ci: fix warning,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1641,2026-01-26T16:08:14+00:00,2026-01-27T16:06:50+00:00,stac-utils,pystac,jsignell
 1645,build(deps): bump actions/setup-python from 6.1.0 to 6.2.0 in the actions-deps group,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1645,2026-02-02T16:09:39+00:00,2026-02-02T16:21:09+00:00,stac-utils,pystac,jsignell
 1648,build(deps): bump cryptography from 45.0.6 to 46.0.5,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1648,2026-02-11T02:29:22+00:00,2026-02-12T13:52:54+00:00,stac-utils,pystac,jsignell
 1650,refactor: move extensions to their own packages,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1650,2026-02-12T20:07:25+00:00,2026-04-03T19:43:48+00:00,stac-utils,pystac,jsignell
 1658,test: enable posix path tests,PR,closed,ircwaves,https://github.com/stac-utils/pystac/pull/1658,2026-03-16T14:53:55+00:00,2026-03-16T16:11:34+00:00,stac-utils,pystac,jsignell
+1659,refactor: self href and self link handling,PR,closed,ircwaves,https://github.com/stac-utils/pystac/pull/1659,2026-03-16T18:00:53+00:00,2026-04-07T15:22:24+00:00,stac-utils,pystac,jsignell
+1660,fix: asset `__eq__`,PR,closed,jsignell,https://github.com/stac-utils/pystac/pull/1660,2026-03-20T18:16:33+00:00,2026-04-07T14:28:57+00:00,stac-utils,pystac,ircwaves
 1687,build(deps-dev): bump the package-deps group across 1 directory with 12 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1687,2026-04-03T19:04:31+00:00,2026-04-03T19:50:37+00:00,stac-utils,pystac,jsignell
+1692,fix: pull static script,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1692,2026-04-06T17:05:21+00:00,2026-04-06T18:12:40+00:00,stac-utils,pystac,jsignell
+1694,chore: set all releases to rc,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1694,2026-04-07T13:26:53+00:00,2026-04-07T13:47:49+00:00,stac-utils,pystac,jsignell
+1696,Get the header filtering back for cassettes,Issue,closed,gadomski,https://github.com/stac-utils/pystac/issues/1696,2026-04-07T13:53:28+00:00,2026-04-08T14:30:45+00:00,stac-utils,pystac,jsignell
+1697,fix: vcr header filtering,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1697,2026-04-08T12:49:32+00:00,2026-04-08T14:30:45+00:00,stac-utils,pystac,jsignell
 837,Add `-Werror` to pyproject.toml,Issue,closed,jsignell,https://github.com/stac-utils/pystac-client/issues/837,2025-10-09T16:26:22+00:00,2026-04-03T20:11:25+00:00,stac-utils,pystac-client,jsignell
 870,build(deps-dev): bump ruff from 0.15.1 to 0.15.2,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac-client/pull/870,2026-02-20T02:13:10+00:00,2026-02-20T17:02:56+00:00,stac-utils,pystac-client,jsignell
+884,build(deps-dev): bump ruff from 0.15.9 to 0.15.10,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac-client/pull/884,2026-04-10T02:13:06+00:00,2026-04-10T16:24:11+00:00,stac-utils,pystac-client,jsignell
