@@ -1,0 +1,8 @@
+sha,message,author,committer,url,total_changes,organization,repository
+985b644aedd2930c1a72b3cb0f8130290b712020,Update authors and contributors in CITATION.cff (#197),Alex I. Mandel,GitHub,https://github.com/cloudnativegeo/cloud-optimized-geospatial-formats-guide/commit/985b644aedd2930c1a72b3cb0f8130290b712020,54,cloudnativegeo,cloud-optimized-geospatial-formats-guide
+118a3bda2d5719289452c269973bf77038b083be,fix(ci): build into the subdirectory's `dist/` (#1729),Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/118a3bda2d5719289452c269973bf77038b083be,2,stac-utils,pystac
+ecac0d0373c6c5d1beb73567c33b885a7bebd046,fix: remove python-version from release workflow (#1727),Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/ecac0d0373c6c5d1beb73567c33b885a7bebd046,2,stac-utils,pystac
+44f948d1f6c99deee85b43b851257bcf402f8489,fix: update all of our versions to be rc.0 (#1726),Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/44f948d1f6c99deee85b43b851257bcf402f8489,81,stac-utils,pystac
+81ff5a8bf62d85c9e7055fdf8f2ed422b92393be,chore: actually set release-please manifest correctly (#1723),Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/81ff5a8bf62d85c9e7055fdf8f2ed422b92393be,4,stac-utils,pystac
+750f064c4fb89d995dd9400c771a5cb06587753f,chore: manually set all the release versions (#1721),Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/750f064c4fb89d995dd9400c771a5cb06587753f,48,stac-utils,pystac
+697c021d76c00b34cdcb267cdd423f13b0795cb3,"fix(ci): use client-id, not app-id (#1720)",Pete Gadomski,GitHub,https://github.com/stac-utils/pystac/commit/697c021d76c00b34cdcb267cdd423f13b0795cb3,4,stac-utils,pystac
