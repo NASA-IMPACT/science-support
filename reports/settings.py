@@ -1,23 +1,15 @@
-"""
-Team-specific settings for the reporting system.
+"""Team-specific settings for the VEDA Science Support reporting system."""
 
-When adopting this reporting structure for a new team, edit the values
-below. These are the ONLY values you need to change in the Python
-scripts. See docs/adopting.md for the full adoption guide.
-"""
+from dse_oss_reports.settings import TeamSettings
 
-# ── Core identifiers ──────────────────────────────────────────────
-GITHUB_ORG = "NASA-IMPACT"
-GITHUB_REPO = "science-support"  # repo where objective issues live
-TEAM_NAME = "Science Support"  # short name, used in chart titles
-TEAM_DISPLAY_NAME = "VEDA/EODC Science Support"  # full name, used in chart caveats
-SITE_URL = "nasa-impact.github.io/science-support"  # GitHub Pages URL (no https://)
+TOKEN_ENV_VAR = "GH_PAT"
 
-# ── Authentication ────────────────────────────────────────────────
-TOKEN_ENV_VAR = "GH_PAT"  # env var name for the GitHub PAT
-# Also update the secret name in .github/workflows/update-reports.yml
-
-# ── Derived values (do not edit) ──────────────────────────────────
-REPO_FULL_NAME = f"{GITHUB_ORG}/{GITHUB_REPO}"
-REPO_URL = f"https://github.com/{GITHUB_ORG}/{GITHUB_REPO}"
-OBJECTIVES_PAGE_URL = f"https://{SITE_URL}/objectives"
+TEAM_SETTINGS = TeamSettings(
+    team_name="Science Support",
+    team_display_name="VEDA/EODC Science Support",
+    github_org="NASA-IMPACT",
+    github_repo="science-support",
+    site_url="nasa-impact.github.io/science-support",
+    objectives_page_url="https://nasa-impact.github.io/science-support/objectives",
+    token_env_var=TOKEN_ENV_VAR,
+)

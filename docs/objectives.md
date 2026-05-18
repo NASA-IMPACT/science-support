@@ -1,38 +1,48 @@
 # Quarterly Objectives
 
-This page tracks quarterly objectives and their related repositories across Program Increments (PIs).
+This page tracks quarterly objectives for the VEDA/EODC Science Support team and the open-source repositories they touch across Program Increments (PIs).
 
-## Current PI: 26.2
+## Current PI: 26.3
+
+![PI-26.3 authored commits](images/pi-26.3-authored-commits.png)
+
+![PI-26.3 resolved issues and PRs](images/pi-26.3-resolved-issues-prs.png)
 
 | # | Objective | Contributors | Repos |
 |---|-----------|--------------|-------|
-| [#1](https://github.com/NASA-IMPACT/science-support/issues/1) | Hub Support | wildintellect, jsignell | repo2docker-action, pangeo-docker-images, pangeo-notebook-veda-image |
-| [#2](https://github.com/NASA-IMPACT/science-support/issues/2) | Cloud Optimized Workflows | wildintellect, jsignell | veda-docs, maap-documentation, cloud-optimized-geospatial-formats-guide |
-| [#3](https://github.com/NASA-IMPACT/science-support/issues/3) | Open-Source Contributions | jsignell, ircwaves, tylanderson | stac-best-practices, stac-spec, dask, pystac, pystac-client, xarray |
-| [#9](https://github.com/NASA-IMPACT/science-support/issues/9) | Data Retention Policy | smk0033 | - |
-| [#10](https://github.com/NASA-IMPACT/science-support/issues/10) | VEDA Forum (Stretch) | smk0033 | - |
-| [#11](https://github.com/NASA-IMPACT/science-support/issues/11) | AI Embedding Report (Stretch) | omshinde | - |
-| [#12](https://github.com/NASA-IMPACT/science-support/issues/12) | Merge MAAP Documentation into VEDA (Stretch) |  | - |
+| [#31](https://github.com/NASA-IMPACT/science-support/issues/31) | Hub Upgrades | wildintellect, grallewellyn | repo2docker-action, pangeo-docker-images, pangeo-notebook-veda-image |
+| [#32](https://github.com/NASA-IMPACT/science-support/issues/32) | Cloud Optimized Workflows | wildintellect, tylanderson | veda-docs, maap-documentation, cloud-optimized-geospatial-formats-guide |
+| [#33](https://github.com/NASA-IMPACT/science-support/issues/33) | Open-Source Contributions | gadomski, tylanderson | stac-best-practices, stac-spec, dask, pystac, pystac-client, xarray |
+| [#34](https://github.com/NASA-IMPACT/science-support/issues/34) | Data Retention Policy | smk0033 | - |
 
 ---
 
----
+## Past PIs
 
-## Visualization
+<details markdown>
+<summary>PI 26.2 (7 objectives, 7 closed)</summary>
 
-The charts use color-coding to show which objective each repo contributes to. Repos that contribute to multiple objectives are shown with split bars.
+| # | Objective | State | Contributors |
+|---|-----------|-------|--------------|
+| [#1](https://github.com/NASA-IMPACT/science-support/issues/1) | Hub Support | closed | wildintellect, jsignell |
+| [#2](https://github.com/NASA-IMPACT/science-support/issues/2) | Cloud Optimized Workflows | closed | wildintellect, jsignell |
+| [#3](https://github.com/NASA-IMPACT/science-support/issues/3) | Open-Source Contributions | closed | jsignell, ircwaves, tylanderson |
+| [#9](https://github.com/NASA-IMPACT/science-support/issues/9) | Data Retention Policy | closed | smk0033 |
+| [#10](https://github.com/NASA-IMPACT/science-support/issues/10) | VEDA Forum (Stretch) | closed | smk0033 |
+| [#11](https://github.com/NASA-IMPACT/science-support/issues/11) | AI Embedding Report (Stretch) | closed | omshinde |
+| [#12](https://github.com/NASA-IMPACT/science-support/issues/12) | Merge MAAP Documentation into VEDA (Stretch) | closed | - |
 
-![PI-26.2 Commits per Repository](images/pi-26.2-authored-commits.png)
+![PI-26.2 authored commits](images/pi-26.2-authored-commits.png)
 
-![PI-26.2 Resolved issues/PRs](images/pi-26.2-resolved-issues-prs.png)
+</details>
 
 ---
 
 ## Configuration
 
-Objectives are configured in [`reports/config.py`](https://github.com/NASA-IMPACT/science-support/blob/main/reports/config.py).
+Objectives data lives in [`reports/_objectives_data.py`](https://github.com/NASA-IMPACT/science-support/blob/main/reports/_objectives_data.py) — auto-generated from GitHub issues by `dse_oss_reports.generator.ObjectivesGenerator`.
 
-To regenerate this page from config:
+To regenerate this page:
 
 ```bash
 cd reports

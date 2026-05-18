@@ -1,137 +1,42 @@
 #!/usr/bin/env python3
-"""
-Generate docs/objectives.md from config.py OBJECTIVES.
+"""Render docs/objectives.md from the OBJECTIVES dataset."""
 
-Usage:
-    uv run generate_docs.py
-"""
+import argparse
+import logging
+import re
+from pathlib import Path
 
-from config import OBJECTIVES
-from settings import REPO_URL
+from dse_oss_reports.cli import run_generate_docs
 
+from objectives import OBJECTIVES
+from settings import TEAM_SETTINGS
 
-def generate_objectives_md() -> str:
-    """Generate markdown content for objectives page."""
-    lines = [
-        "# Quarterly Objectives",
-        "",
-        "This page tracks quarterly objectives and their related repositories across Program Increments (PIs).",
-        "",
-    ]
-
-    # Sort PIs reverse chronologically (newest first)
-    sorted_pis = sorted(
-        OBJECTIVES.keys(), key=lambda x: float(x.split("-")[1]), reverse=True
-    )
-
-    for i, pi in enumerate(sorted_pis):
-        objectives = OBJECTIVES[pi]
-        pi_upper = pi.upper().replace("-", " ")
-
-        if i == 0:
-            # Current PI - show full details
-            lines.append(f"## Current PI: {pi.split('-')[1]}")
-            lines.append("")
-            lines.append("| # | Objective | Contributors | Repos |")
-            lines.append("|---|-----------|--------------|-------|")
-
-            for obj in sorted(objectives, key=lambda x: x["issue_number"]):
-                num = obj["issue_number"]
-                # Clean up title (remove PI prefix if present)
-                title = obj["title"]
-                if "Objective" in title and ":" in title:
-                    title = title.split(":", 1)[1].strip()
-                title = title[:60] + "..." if len(title) > 60 else title
-
-                contributors = ", ".join(u for _, u in obj["contributors"])
-                repos = ", ".join(r for _, r in obj["repos"]) if obj["repos"] else "-"
-
-                lines.append(
-                    f"| [#{num}]({REPO_URL}/issues/{num}) | {title} | {contributors} | {repos} |"
-                )
-
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-        else:
-            # Historical PIs - collapsible
-            closed_count = sum(1 for o in objectives if o["state"] == "closed")
-
-            lines.append("<details markdown>")
-            lines.append(
-                f"<summary>{pi_upper} ({len(objectives)} objectives, {closed_count} closed)</summary>"
-            )
-            lines.append("")
-            lines.append("| # | Objective | State | Contributors |")
-            lines.append("|---|-----------|-------|--------------|")
-
-            for obj in sorted(objectives, key=lambda x: x["issue_number"]):
-                num = obj["issue_number"]
-                title = obj["title"]
-                if "Objective" in title and ":" in title:
-                    title = title.split(":", 1)[1].strip()
-                title = title[:50] + "..." if len(title) > 50 else title
-
-                state = obj["state"]
-                contributors = ", ".join(u for _, u in obj["contributors"])
-
-                lines.append(
-                    f"| [#{num}]({REPO_URL}/issues/{num}) | {title} | {state} | {contributors} |"
-                )
-
-            lines.append("")
-            lines.append("</details>")
-            lines.append("")
-
-    lines.append("---")
-    lines.append("")
-    lines.append("## Visualization")
-    lines.append("")
-    lines.append(
-        "The charts use color-coding to show which objective each repo contributes to. Repos that contribute to multiple objectives are shown with split bars."
-    )
-    lines.append("")
-    # Add image for the current PI
-    current_pi = sorted_pis[0]
-    lines.append(
-        f"![{current_pi.upper()} Commits per Repository](images/{current_pi}-authored-commits.png)"
-    )
-    lines.append("")
-    lines.append(
-        f"![{current_pi.upper()} Resolved issues/PRs](images/{current_pi}-resolved-issues-prs.png)"
-    )
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## Configuration")
-    lines.append("")
-    lines.append(
-        f"Objectives are configured in [`reports/config.py`]({REPO_URL}/blob/main/reports/config.py)."
-    )
-    lines.append("")
-    lines.append("To regenerate this page from config:")
-    lines.append("")
-    lines.append("```bash")
-    lines.append("cd reports")
-    lines.append("uv run generate_docs.py")
-    lines.append("```")
-
-    return "\n".join(lines)
+# Drops past-PI image references whose target file was never generated
+# (e.g. PIs that predate the per-PI chart tooling). The upstream generator
+# emits an image link for every PI unconditionally.
+_IMAGE_LINE_RE = re.compile(r"^!\[[^\]]*\]\((images/[^)]+)\)\s*$")
 
 
-def main():
-    content = generate_objectives_md()
-
-    output_file = "../docs/objectives.md"
-    with open(output_file, "w") as f:
-        f.write(content)
-
-    print(f"Generated {output_file}")
-
-    # Print summary
-    total_objectives = sum(len(objs) for objs in OBJECTIVES.values())
-    print(f"  {len(OBJECTIVES)} PIs, {total_objectives} total objectives")
+def _strip_missing_image_lines(md_path: Path) -> None:
+    docs_dir = md_path.parent
+    kept = []
+    for line in md_path.read_text().splitlines():
+        match = _IMAGE_LINE_RE.match(line)
+        if match and not (docs_dir / match.group(1)).exists():
+            continue
+        kept.append(line)
+    md_path.write_text("\n".join(kept) + "\n")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("-v", "--verbose", action="store_true")
+    args = parser.parse_args()
+
+    logging.basicConfig(
+        level=logging.INFO if args.verbose else logging.WARNING,
+        format="%(message)s",
+    )
+
+    output_path = run_generate_docs(TEAM_SETTINGS, OBJECTIVES)
+    _strip_missing_image_lines(output_path)
