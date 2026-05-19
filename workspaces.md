@@ -1,6 +1,6 @@
-Ovals - Sources
-Rectangles - Docker Container images
-Green Rectangles - Images deployed on MAAP or VEDA
+- Ovals - Sources
+- Rectangles - Docker Container images
+- Green Rectangles - Images deployed on MAAP or VEDA
 
 ```mermaid
 ---
