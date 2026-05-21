@@ -1,0 +1,11 @@
+[team]
+name = "Science Support"
+display_name = "VEDA/MAAP Science Support"
+github_org = "NASA-IMPACT"
+github_repo = "science-support"
+site_url = "nasa-impact.github.io/science-support"
+objectives_page_url = "https://nasa-impact.github.io/science-support/objectives"
+token_env_var = "GH_PAT"
+
+[long_org_name_mapping]
+cng = "cloudnativegeo"
