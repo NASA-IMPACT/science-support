@@ -1,6 +1,6 @@
 # Quarterly Objectives
 
-This page tracks quarterly objectives for the VEDA/EODC Science Support team and the open-source repositories they touch across Program Increments (PIs).
+This page tracks quarterly objectives for the VEDA/MAAP Science Support team and the open-source repositories they touch across Program Increments (PIs).
 
 ## Current PI: 26.3
 
@@ -20,19 +20,21 @@ This page tracks quarterly objectives for the VEDA/EODC Science Support team and
 ## Past PIs
 
 <details markdown>
-<summary>PI 26.2 (7 objectives, 7 closed)</summary>
+<summary>PI 26.2 (7 original objectives; 4 closed as completed; 3 closed as not planned)</summary>
 
 | # | Objective | State | Contributors |
 |---|-----------|-------|--------------|
-| [#1](https://github.com/NASA-IMPACT/science-support/issues/1) | Hub Support | closed | wildintellect, jsignell |
-| [#2](https://github.com/NASA-IMPACT/science-support/issues/2) | Cloud Optimized Workflows | closed | wildintellect, jsignell |
-| [#3](https://github.com/NASA-IMPACT/science-support/issues/3) | Open-Source Contributions | closed | jsignell, ircwaves, tylanderson |
-| [#9](https://github.com/NASA-IMPACT/science-support/issues/9) | Data Retention Policy | closed | smk0033 |
-| [#10](https://github.com/NASA-IMPACT/science-support/issues/10) | VEDA Forum (Stretch) | closed | smk0033 |
-| [#11](https://github.com/NASA-IMPACT/science-support/issues/11) | AI Embedding Report (Stretch) | closed | omshinde |
-| [#12](https://github.com/NASA-IMPACT/science-support/issues/12) | Merge MAAP Documentation into VEDA (Stretch) | closed | - |
+| [#1](https://github.com/NASA-IMPACT/science-support/issues/1) | Hub Support | closed (completed) | wildintellect, jsignell |
+| [#2](https://github.com/NASA-IMPACT/science-support/issues/2) | Cloud Optimized Workflows | closed (completed) | wildintellect, jsignell |
+| [#3](https://github.com/NASA-IMPACT/science-support/issues/3) | Open-Source Contributions | closed (completed) | jsignell, ircwaves, tylanderson |
+| [#9](https://github.com/NASA-IMPACT/science-support/issues/9) | Data Retention Policy | closed (completed) | smk0033 |
+| [#10](https://github.com/NASA-IMPACT/science-support/issues/10) | VEDA Forum (Stretch) | closed (not planned) | smk0033 |
+| [#11](https://github.com/NASA-IMPACT/science-support/issues/11) | AI Embedding Report (Stretch) | closed (not planned) | omshinde |
+| [#12](https://github.com/NASA-IMPACT/science-support/issues/12) | Merge MAAP Documentation into VEDA (Stretch) | closed (not planned) | - |
 
 ![PI-26.2 authored commits](images/pi-26.2-authored-commits.png)
+
+![PI-26.2 resolved issues and PRs](images/pi-26.2-resolved-issues-prs.png)
 
 </details>
 
