@@ -38,4 +38,8 @@ flowchart LR
     style n10 fill:#C8E6C9
     style n20 fill:#C8E6C9
     style n12 fill:#C8E6C9
+    click n9 "https://github.com/NASA-IMPACT/pangeo-notebook-veda-image"
+    click n14 "https://github.com/MAAP-Project/maap-workspaces/tree/main/base_images/2i2c/isce3"
+    click n10 "https://github.com/MAAP-Project/maap-workspaces/tree/main/base_images/2i2c/pangeo"
+    click n20 "https://github.com/GEO-TREES/workspace_images/tree/lasR"
 ```
