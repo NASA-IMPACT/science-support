@@ -15,7 +15,7 @@ flowchart LR
     n6 --> n8 & n9["VEDA Pangeo"] & n14["ISCE3"]
     n9 --> n10["MAAP Pangeo"]
     n11 --> n9
-    n4["pypi"] --> n10 & n20["Geotrees/lasR"]
+    n4["pypi"] --> n10 & n20["Geotrees/lasR"] & n17 & n16 & n12
     n8 --> n12["MAAP R"]
     n5["R Universe"] --> n12
     n3["CRAN"] --> n12
