@@ -440,33 +440,5 @@
         ]
       ]
     }
-  ],
-  "pi-27.1": [
-    {
-      "issue_number": 89,
-      "title": "[Sc] PI 27.1 Objective 1: Hub Upgrades",
-      "state": "open",
-      "state_reason": null,
-      "contributors": [
-        [
-          "Alex I. Mandel",
-          "wildintellect"
-        ],
-        [
-          "Julia Signell",
-          "jsignell"
-        ]
-      ],
-      "repos": [
-        [
-          "pangeo-data",
-          "pangeo-docker-images"
-        ],
-        [
-          "NASA-IMPACT",
-          "pangeo-notebook-veda-image"
-        ]
-      ]
-    }
   ]
 }
