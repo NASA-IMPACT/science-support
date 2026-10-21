@@ -158,12 +158,24 @@
     {
       "issue_number": 31,
       "title": "[Sc] PI 26.3 Objective 1: Hub Upgrades",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "contributors": [
         [
           "Alex I. Mandel",
           "wildintellect"
+        ],
+        [
+          "Julia Signell",
+          "jsignell"
+        ],
+        [
+          "Wei Ji",
+          "weiji14"
+        ],
+        [
+          "Tyler",
+          "tylanderson"
         ],
         [
           "Grace Llewellyn",
@@ -182,22 +194,46 @@
         [
           "NASA-IMPACT",
           "pangeo-notebook-veda-image"
+        ],
+        [
+          "GEO-TREES",
+          "workspace_images"
+        ],
+        [
+          "conda-forge",
+          "r-lasr-feedstock"
         ]
       ]
     },
     {
       "issue_number": 32,
       "title": "[Sc] PI 26.3 Objective 2: Cloud Optimized Workflows",
-      "state": "open",
-      "state_reason": "reopened",
+      "state": "closed",
+      "state_reason": "completed",
       "contributors": [
         [
           "Alex I. Mandel",
           "wildintellect"
         ],
         [
+          "Henry Rodman",
+          "hrodmn"
+        ],
+        [
+          "Rajat Shinde",
+          "omshinde"
+        ],
+        [
           "Tyler",
           "tylanderson"
+        ],
+        [
+          "Sheyenne Kirkland",
+          "smk0033"
+        ],
+        [
+          "Harshini ",
+          "HarshiniGirish"
         ]
       ],
       "repos": [
@@ -218,12 +254,20 @@
     {
       "issue_number": 33,
       "title": "[Sc] PI 26.3 Objective 3: Open-Source Contributions",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "contributors": [
         [
           "Pete Gadomski",
           "gadomski"
+        ],
+        [
+          "Henry Rodman",
+          "hrodmn"
+        ],
+        [
+          "Wei Ji",
+          "weiji14"
         ],
         [
           "Tyler",
@@ -260,8 +304,8 @@
     {
       "issue_number": 34,
       "title": "[Sc] PI 26.3 Objective 4: Data Retention Policy",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "contributors": [
         [
           "Sheyenne Kirkland",
@@ -269,6 +313,160 @@
         ]
       ],
       "repos": []
+    }
+  ],
+  "pi-26.4": [
+    {
+      "issue_number": 62,
+      "title": "[Sc] PI 26.4 Objective 2: Cloud Native Workflows",
+      "state": "closed",
+      "state_reason": "completed",
+      "contributors": [
+        [
+          "Rajat Shinde",
+          "omshinde"
+        ]
+      ],
+      "repos": [
+        [
+          "NASA-IMPACT",
+          "veda-docs"
+        ],
+        [
+          "MAAP-Project",
+          "maap-documentation"
+        ],
+        [
+          "cloudnativegeo",
+          "cloud-optimized-geospatial-formats-guide"
+        ]
+      ]
+    },
+    {
+      "issue_number": 63,
+      "title": "[Sc] PI 26.4 Objective 5: Data Retention Policy",
+      "state": "closed",
+      "state_reason": "completed",
+      "contributors": [
+        [
+          "Sheyenne Kirkland",
+          "smk0033"
+        ]
+      ],
+      "repos": []
+    },
+    {
+      "issue_number": 66,
+      "title": "[Sc] PI 26.4 Objective 1: Hub Upgrades",
+      "state": "closed",
+      "state_reason": "completed",
+      "contributors": [
+        [
+          "Alex I. Mandel",
+          "wildintellect"
+        ]
+      ],
+      "repos": [
+        [
+          "jupyterhub",
+          "repo2docker-action"
+        ],
+        [
+          "pangeo-data",
+          "pangeo-docker-images"
+        ],
+        [
+          "NASA-IMPACT",
+          "pangeo-notebook-veda-image"
+        ],
+        [
+          "GEO-TREES",
+          "workspace_images"
+        ],
+        [
+          "conda-forge",
+          "r-lasr-feedstock"
+        ]
+      ]
+    },
+    {
+      "issue_number": 67,
+      "title": "[Sc] PI 26.4 Objective 3: Deploy DPS to Hubs",
+      "state": "closed",
+      "state_reason": "completed",
+      "contributors": [
+        [
+          "Alex I. Mandel",
+          "wildintellect"
+        ]
+      ],
+      "repos": []
+    },
+    {
+      "issue_number": 68,
+      "title": "[Sc] PI 26.4 Objective 4: Open-Source Contributions",
+      "state": "closed",
+      "state_reason": "completed",
+      "contributors": [
+        [
+          "Pete Gadomski",
+          "gadomski"
+        ]
+      ],
+      "repos": [
+        [
+          "radiantearth",
+          "stac-best-practices"
+        ],
+        [
+          "radiantearth",
+          "stac-spec"
+        ],
+        [
+          "dask",
+          "dask"
+        ],
+        [
+          "stac-utils",
+          "pystac"
+        ],
+        [
+          "stac-utils",
+          "pystac-client"
+        ],
+        [
+          "pydata",
+          "xarray"
+        ]
+      ]
+    }
+  ],
+  "pi-27.1": [
+    {
+      "issue_number": 89,
+      "title": "[Sc] PI 27.1 Objective 1: Hub Upgrades",
+      "state": "open",
+      "state_reason": null,
+      "contributors": [
+        [
+          "Alex I. Mandel",
+          "wildintellect"
+        ],
+        [
+          "Julia Signell",
+          "jsignell"
+        ]
+      ],
+      "repos": [
+        [
+          "pangeo-data",
+          "pangeo-docker-images"
+        ],
+        [
+          "NASA-IMPACT",
+          "pangeo-notebook-veda-image"
+        ]
+      ]
     }
   ]
 }

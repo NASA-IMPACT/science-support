@@ -1,0 +1,2 @@
+number,title,type,state,author,url,created_at,updated_at,organization,repository,contributor
+680,Pin to pip>=26.2.2,PR,closed,weiji14,https://github.com/pangeo-data/pangeo-docker-images/pull/680,2026-10-21T09:14:58Z,2026-10-21T15:31:00Z,pangeo-data,pangeo-docker-images,jsignell
