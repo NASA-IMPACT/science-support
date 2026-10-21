@@ -2,32 +2,19 @@
 
 This page tracks quarterly objectives for the VEDA/MAAP Science Support team and the open-source repositories they touch across Program Increments (PIs).
 
-## Current PI: 27.1
+## Current PI: 26.4
 
 | # | Objective | Contributors | Repos |
 |---|-----------|--------------|-------|
-| [#89](https://github.com/NASA-IMPACT/science-support/issues/89) | Hub Upgrades | wildintellect, jsignell | pangeo-docker-images, pangeo-notebook-veda-image |
+| [#62](https://github.com/NASA-IMPACT/science-support/issues/62) | Cloud Native Workflows | omshinde | veda-docs, maap-documentation, cloud-optimized-geospatial-formats-guide |
+| [#63](https://github.com/NASA-IMPACT/science-support/issues/63) | Data Retention Policy | smk0033 | - |
+| [#66](https://github.com/NASA-IMPACT/science-support/issues/66) | Hub Upgrades | wildintellect, jsignell | repo2docker-action, pangeo-docker-images, pangeo-notebook-veda-image, workspace_images, r-lasr-feedstock |
+| [#67](https://github.com/NASA-IMPACT/science-support/issues/67) | Deploy DPS to Hubs | wildintellect | - |
+| [#68](https://github.com/NASA-IMPACT/science-support/issues/68) | Open-Source Contributions | gadomski, jsignell | stac-best-practices, stac-spec, dask, pystac, pystac-client, xarray, stac-geoparquet-spec, stac-geoparquet |
 
 ---
 
 ## Past PIs
-
-<details markdown>
-<summary>PI 26.4 (5 original objectives; 5 closed as completed; 0 closed as not planned)</summary>
-
-| # | Objective | State | Contributors |
-|---|-----------|-------|--------------|
-| [#62](https://github.com/NASA-IMPACT/science-support/issues/62) | Cloud Native Workflows | closed (completed) | omshinde |
-| [#63](https://github.com/NASA-IMPACT/science-support/issues/63) | Data Retention Policy | closed (completed) | smk0033 |
-| [#66](https://github.com/NASA-IMPACT/science-support/issues/66) | Hub Upgrades | closed (completed) | wildintellect |
-| [#67](https://github.com/NASA-IMPACT/science-support/issues/67) | Deploy DPS to Hubs | closed (completed) | wildintellect |
-| [#68](https://github.com/NASA-IMPACT/science-support/issues/68) | Open-Source Contributions | closed (completed) | gadomski |
-
-![PI-26.4 resolved issues and PRs](images/pi-26.4-resolved-issues-prs.png)
-
-![PI-26.4 foundational engagement](images/pi-26.4-engagement.png)
-
-</details>
 
 <details markdown>
 <summary>PI 26.3 (4 original objectives; 4 closed as completed; 0 closed as not planned)</summary>
