@@ -1,5 +1,6 @@
 number,title,type,state,author,url,created_at,updated_at,organization,repository,contributor
 575,Biomass reproject + update links,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/575,2026-03-31T16:05:00Z,2026-09-24T15:26:09Z,MAAP-Project,maap-documentation,omshinde
+579,Get Team Bucket credentials in R.,Issue,closed,wildintellect,https://github.com/MAAP-Project/maap-documentation/issues/579,2026-05-07T22:59:51Z,2026-07-20T17:18:31Z,MAAP-Project,maap-documentation,omshinde
 582,Accessing buckets in r,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/582,2026-05-08T19:05:42Z,2026-07-15T21:23:49Z,MAAP-Project,maap-documentation,omshinde
 592,Add documentation for the universal sign up page and PATs,PR,closed,bsatoriu,https://github.com/MAAP-Project/maap-documentation/pull/592,2026-07-30T23:37:10Z,2026-07-31T19:32:02Z,MAAP-Project,maap-documentation,omshinde
 599,Nisar updates,PR,closed,HarshiniGirish,https://github.com/MAAP-Project/maap-documentation/pull/599,2026-09-08T18:15:24Z,2026-09-10T16:11:38Z,MAAP-Project,maap-documentation,omshinde
@@ -7,14 +8,41 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 31,r-lasr v0.20.0,PR,closed,regro-cf-autotick-bot,https://github.com/conda-forge/r-lasr-feedstock/pull/31,2026-04-14T18:46:38Z,2026-07-14T13:48:58Z,conda-forge,r-lasr-feedstock,wildintellect
 32,Rebuild for libgdal_core 3.13,PR,closed,regro-cf-autotick-bot,https://github.com/conda-forge/r-lasr-feedstock/pull/32,2026-05-09T18:44:19Z,2026-07-14T13:50:16Z,conda-forge,r-lasr-feedstock,wildintellect
 34,[bot-automerge] r-lasr v0.21.2,PR,closed,regro-cf-autotick-bot,https://github.com/conda-forge/r-lasr-feedstock/pull/34,2026-09-30T20:14:02Z,2026-09-30T20:45:39Z,conda-forge,r-lasr-feedstock,wildintellect
+601,Cannot build an amd64 platform base image on arm64 local machine using environment.yml,Issue,closed,Alex-Mackie,https://github.com/pangeo-data/pangeo-docker-images/issues/601,2025-01-29T09:40:23Z,2026-10-13T20:15:07Z,pangeo-data,pangeo-docker-images,jsignell
 667,Bump GDAL to 3.13.x,Issue,closed,wildintellect,https://github.com/pangeo-data/pangeo-docker-images/issues/667,2026-08-26T21:15:41Z,2026-10-14T00:33:38Z,pangeo-data,pangeo-docker-images,wildintellect
+668,Update pangeo-notebook metapackage version to 2026.10.09,PR,closed,pangeo-bot,https://github.com/pangeo-data/pangeo-docker-images/pull/668,2026-09-28T01:51:05Z,2026-10-13T17:51:38Z,pangeo-data,pangeo-docker-images,jsignell
+676,"Pin argopy>=1.5.0, bring back parcels at v4.0.0",PR,closed,weiji14,https://github.com/pangeo-data/pangeo-docker-images/pull/676,2026-10-15T01:46:43Z,2026-10-15T18:32:47Z,pangeo-data,pangeo-docker-images,jsignell
+677,"Issue with erddapy, argopy and xarray-tutorial",Issue,closed,jsignell,https://github.com/pangeo-data/pangeo-docker-images/issues/677,2026-10-15T16:37:01Z,2026-10-15T18:32:45Z,pangeo-data,pangeo-docker-images,jsignell
+11020,Refactor Dataset.map to merge attrs instead of copying,PR,closed,max-sixty,https://github.com/pydata/xarray/pull/11020,2025-12-16T05:43:52Z,2026-10-14T11:37:40Z,pydata,xarray,jsignell
+11088,"open_mfdataset segfaults when using engine=""netcdf4"" and Prallel=Tru",Issue,closed,ArielDeVora,https://github.com/pydata/xarray/issues/11088,2026-01-15T15:02:36Z,2026-09-30T17:42:46Z,pydata,xarray,jsignell
+11156,DOC: fix set_options rendering by documenting defaults explicitly,PR,closed,dolliecoder,https://github.com/pydata/xarray/pull/11156,2026-02-10T17:51:39Z,2026-10-12T20:37:10Z,pydata,xarray,jsignell
+11292,Warn when explicit dims rename tuple-style DataArray coords,PR,closed,officialasishkumar,https://github.com/pydata/xarray/pull/11292,2026-04-09T20:17:23Z,2026-09-29T07:47:15Z,pydata,xarray,jsignell
+11327,docs: Document Index._repr_inline_ in custom-index how-to,PR,closed,xronocode,https://github.com/pydata/xarray/pull/11327,2026-05-09T08:31:53Z,2026-08-17T15:38:19Z,pydata,xarray,jsignell
+5,Representation of Assets,Issue,closed,philvarner,https://github.com/radiantearth/stac-geoparquet-spec/issues/5,2025-04-17T13:10:05Z,2026-08-04T21:12:30Z,radiantearth,stac-geoparquet-spec,gadomski
+10,Add a tooling section to the documentation,Issue,closed,gadomski,https://github.com/radiantearth/stac-geoparquet-spec/issues/10,2025-10-25T13:32:38Z,2026-08-05T15:07:21Z,radiantearth,stac-geoparquet-spec,gadomski
+29,Fixing links that 404 in spec docs,PR,closed,kylemann16,https://github.com/radiantearth/stac-geoparquet-spec/pull/29,2026-06-09T16:47:34Z,2026-07-30T13:57:25Z,radiantearth,stac-geoparquet-spec,gadomski
+35,chore(deps-dev): bump prettier from 3.8.1 to 3.9.6 in the npm group,PR,closed,dependabot[bot],https://github.com/radiantearth/stac-geoparquet-spec/pull/35,2026-08-11T17:49:46Z,2026-08-18T13:45:47Z,radiantearth,stac-geoparquet-spec,gadomski
+37,chore(deps): bump the uv group with 3 updates,PR,closed,dependabot[bot],https://github.com/radiantearth/stac-geoparquet-spec/pull/37,2026-08-11T17:50:15Z,2026-08-18T13:46:09Z,radiantearth,stac-geoparquet-spec,gadomski
+38,chore(deps): bump the github-actions group across 1 directory with 3 updates,PR,closed,dependabot[bot],https://github.com/radiantearth/stac-geoparquet-spec/pull/38,2026-08-18T13:44:56Z,2026-08-18T13:45:26Z,radiantearth,stac-geoparquet-spec,gadomski
+39,chore(deps): bump check-jsonschema from 0.37.4 to 0.38.0 in the uv group,PR,closed,dependabot[bot],https://github.com/radiantearth/stac-geoparquet-spec/pull/39,2026-08-25T13:44:43Z,2026-08-27T02:01:58Z,radiantearth,stac-geoparquet-spec,gadomski
 1391,Inform about new best practices on master as well,PR,closed,m-mohr,https://github.com/radiantearth/stac-spec/pull/1391,2026-08-17T10:03:50Z,2026-08-26T02:08:44Z,radiantearth,stac-spec,gadomski
 1394,Should asset-aware validation be part of the STAC validation ecosystem?,Issue,closed,orbseekr-dev,https://github.com/radiantearth/stac-spec/issues/1394,2026-09-19T06:10:55Z,2026-09-21T13:10:18Z,radiantearth,stac-spec,gadomski
-1237,Feat/wip virtual assets,PR,closed,abarciauskas-bgse,https://github.com/stac-utils/pystac/pull/1237,2023-09-27T19:21:47Z,2026-10-05T15:49:04Z,stac-utils,pystac,gadomski
+134,Implement extension: tiled-assets,Issue,closed,lossyrob,https://github.com/stac-utils/pystac/issues/134,2020-08-03T03:08:12Z,2026-10-05T15:55:42Z,stac-utils,pystac,gadomski
+367,Use descriptors for Extensions?,Issue,closed,TomAugspurger,https://github.com/stac-utils/pystac/issues/367,2021-05-27T16:13:09Z,2026-10-05T15:37:06Z,stac-utils,pystac,gadomski
+518,"RFC: Rename ""pointcloud"" to ""point cloud""",Issue,closed,l0b0,https://github.com/stac-utils/pystac/issues/518,2021-07-06T02:41:00Z,2026-10-05T15:26:21Z,stac-utils,pystac,jsignell
+846,Convenience methods for converting STAC objects / linked assets to data containers,Issue,closed,TomAugspurger,https://github.com/stac-utils/pystac/issues/846,2022-07-14T21:24:04Z,2026-10-05T15:49:06Z,stac-utils,pystac,jsignell
+1153,[RFC] Using `attrs` in pystac object definitions,Issue,closed,jsignell,https://github.com/stac-utils/pystac/issues/1153,2023-06-07T22:24:41Z,2026-10-05T15:46:32Z,stac-utils,pystac,jsignell
+1237,Feat/wip virtual assets,PR,closed,abarciauskas-bgse,https://github.com/stac-utils/pystac/pull/1237,2023-09-27T19:21:47Z,2026-10-05T15:49:04Z,stac-utils,pystac,jsignell
 1256,Assets keep their own `stac_extensions`,PR,closed,constantinius,https://github.com/stac-utils/pystac/pull/1256,2023-10-08T13:38:03Z,2026-10-05T15:49:35Z,stac-utils,pystac,gadomski
+1524,feat!: pystac v2,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1524,2025-02-13T16:20:20Z,2026-10-05T15:57:43Z,stac-utils,pystac,jsignell
 1571,Mlm,PR,closed,jonas-hurst,https://github.com/stac-utils/pystac/pull/1571,2025-08-13T16:00:00Z,2026-07-24T10:22:04Z,stac-utils,pystac,gadomski
-1719,"feat: implement earthquake, insar, order, processing, product and Sentinel(1|2|3) STAC Extensions",PR,closed,sim13pods,https://github.com/stac-utils/pystac/pull/1719,2026-05-08T08:50:18Z,2026-08-03T15:15:41Z,stac-utils,pystac,gadomski
-1732,Draft: v2 migration guide with examples,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1732,2026-05-15T19:58:46Z,2026-10-05T15:58:43Z,stac-utils,pystac,gadomski
+1657,Pystac v2: Get tests/v1 passing,Issue,closed,jsignell,https://github.com/stac-utils/pystac/issues/1657,2026-03-16T13:44:11Z,2026-10-05T16:10:41Z,stac-utils,pystac,jsignell
+1702,V2 catalog test updates,PR,closed,ircwaves,https://github.com/stac-utils/pystac/pull/1702,2026-04-21T14:18:27Z,2026-10-05T15:58:22Z,stac-utils,pystac,jsignell
+1706,V2: Constructing item from geometry with tuple coords,Issue,closed,tylanderson,https://github.com/stac-utils/pystac/issues/1706,2026-04-22T18:51:30Z,2026-10-05T15:46:44Z,stac-utils,pystac,gadomski
+1714,V2: get_target() while recursing items results in multiple instances for same object,Issue,closed,tylanderson,https://github.com/stac-utils/pystac/issues/1714,2026-04-27T20:41:09Z,2026-10-05T15:38:24Z,stac-utils,pystac,jsignell
+1719,"feat: implement earthquake, insar, order, processing, product and Sentinel(1|2|3) STAC Extensions",PR,closed,sim13pods,https://github.com/stac-utils/pystac/pull/1719,2026-05-08T08:50:18Z,2026-08-03T15:15:41Z,stac-utils,pystac,jsignell
+1732,Draft: v2 migration guide with examples,PR,closed,tylanderson,https://github.com/stac-utils/pystac/pull/1732,2026-05-15T19:58:46Z,2026-10-05T15:58:43Z,stac-utils,pystac,jsignell
+1763,Fix circular dependency in pystac-core,Issue,closed,gadomski,https://github.com/stac-utils/pystac/issues/1763,2026-07-01T12:38:17Z,2026-07-27T19:41:23Z,stac-utils,pystac,gadomski
 1766,build(deps): bump soupsieve from 2.8.3 to 2.8.4,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1766,2026-07-10T22:58:47Z,2026-07-23T16:21:20Z,stac-utils,pystac,gadomski
 1767,build(deps): bump mistune from 3.2.1 to 3.3.0,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1767,2026-07-10T23:40:36Z,2026-07-23T16:13:18Z,stac-utils,pystac,gadomski
 1768,build(deps): bump astral-sh/setup-uv from 8.2.0 to 8.3.2 in the actions-deps group,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1768,2026-07-20T14:13:01Z,2026-07-20T15:09:58Z,stac-utils,pystac,gadomski
@@ -36,6 +64,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 1789,feat: implement Sentinel-3 STAC Extension,PR,closed,sim13pods,https://github.com/stac-utils/pystac/pull/1789,2026-08-03T15:25:17Z,2026-09-04T04:57:16Z,stac-utils,pystac,gadomski
 1790,feat: implement Themes STAC Extension,PR,closed,sim13pods,https://github.com/stac-utils/pystac/pull/1790,2026-08-03T15:55:52Z,2026-09-04T04:56:49Z,stac-utils,pystac,gadomski
 1791,feat: implement Open Science Catalog STAC Extension,PR,closed,sim13pods,https://github.com/stac-utils/pystac/pull/1791,2026-08-03T16:09:12Z,2026-09-04T04:56:30Z,stac-utils,pystac,gadomski
+1792,Fix extension packages that depend on other packages,Issue,closed,gadomski,https://github.com/stac-utils/pystac/issues/1792,2026-08-04T19:08:25Z,2026-08-04T20:21:31Z,stac-utils,pystac,gadomski
 1794,chore: release main,PR,closed,stac-utils-release-bot[bot],https://github.com/stac-utils/pystac/pull/1794,2026-08-04T20:22:03Z,2026-08-10T15:53:38Z,stac-utils,pystac,gadomski
 1795,build(deps-dev): bump aiohttp from 3.14.1 to 3.14.3,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1795,2026-08-04T20:23:30Z,2026-08-04T20:29:38Z,stac-utils,pystac,gadomski
 1797,build(deps): bump pypa/gh-action-pypi-publish from 1.14.1 to 1.14.2 in the actions-deps group,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1797,2026-08-10T14:13:23Z,2026-08-10T14:56:47Z,stac-utils,pystac,gadomski
@@ -43,7 +72,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 1801,build(deps): bump tornado from 6.5.7 to 6.5.8,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1801,2026-09-01T21:50:25Z,2026-09-01T22:27:13Z,stac-utils,pystac,gadomski
 1803,docs: reflect that PySTAC writes STAC v1.1.0 by default,PR,closed,shaikn6,https://github.com/stac-utils/pystac/pull/1803,2026-09-04T02:05:53Z,2026-09-29T15:27:03Z,stac-utils,pystac,gadomski
 1804,fix: recursively convert values in PropertiesExtension._set_property,PR,closed,devtejasx,https://github.com/stac-utils/pystac/pull/1804,2026-09-11T10:17:20Z,2026-09-11T23:28:57Z,stac-utils,pystac,gadomski
-1805,feat: add octet-stream and zip media types,PR,closed,devtejasx,https://github.com/stac-utils/pystac/pull/1805,2026-09-11T11:18:26Z,2026-10-01T21:50:05Z,stac-utils,pystac,gadomski
+1805,feat: add octet-stream and zip media types,PR,closed,devtejasx,https://github.com/stac-utils/pystac/pull/1805,2026-09-11T11:18:26Z,2026-10-01T21:50:05Z,stac-utils,pystac,jsignell
 1810,build(deps): bump cryptography from 49.0.0 to 50.0.0,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1810,2026-09-17T20:31:14Z,2026-10-01T22:19:59Z,stac-utils,pystac,gadomski
 1811,build(deps): bump soupsieve from 2.8.4 to 2.9,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1811,2026-09-18T01:31:38Z,2026-09-18T11:56:22Z,stac-utils,pystac,gadomski
 1815,build(deps): bump the actions-deps group across 1 directory with 2 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1815,2026-09-28T14:12:52Z,2026-09-28T14:39:15Z,stac-utils,pystac,gadomski
@@ -84,3 +113,21 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 938,Add pystac.Collection to CollectionsLike type alias,PR,closed,ghidalgo3,https://github.com/stac-utils/pystac-client/pull/938,2026-10-01T03:46:43Z,2026-10-01T12:12:26Z,stac-utils,pystac-client,gadomski
 939,build(deps-dev): bump ruff from 0.16.9 to 0.16.10,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac-client/pull/939,2026-10-05T02:12:51Z,2026-10-05T14:20:26Z,stac-utils,pystac-client,gadomski
 940,build(deps): bump astral-sh/setup-uv from 10.2.0 to 10.3.0,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac-client/pull/940,2026-10-12T05:50:47Z,2026-10-12T11:59:32Z,stac-utils,pystac-client,gadomski
+16,Remove Planetary Comptuer specific code,Issue,closed,TomAugspurger,https://github.com/stac-utils/stac-geoparquet/issues/16,2023-07-18T15:46:53Z,2026-09-02T21:54:07Z,stac-utils,stac-geoparquet,gadomski
+97,pgstac_reader NDJSON export,PR,closed,ghidalgo3,https://github.com/stac-utils/stac-geoparquet/pull/97,2025-04-28T19:06:28Z,2026-09-10T13:15:26Z,stac-utils,stac-geoparquet,gadomski
+122,Pin GitHub Actions to SHA digests (zizmor unpinned-uses),Issue,closed,lhoupert,https://github.com/stac-utils/stac-geoparquet/issues/122,2026-04-02T15:28:54Z,2026-09-17T15:15:53Z,stac-utils,stac-geoparquet,gadomski
+144,fix: STAC properties and top level keys,PR,closed,ceholden,https://github.com/stac-utils/stac-geoparquet/pull/144,2026-07-13T13:56:56Z,2026-07-13T16:45:03Z,stac-utils,stac-geoparquet,gadomski
+145,feat: allow injection of pgstac connection,PR,closed,ceholden,https://github.com/stac-utils/stac-geoparquet/pull/145,2026-07-13T20:43:52Z,2026-07-14T15:52:58Z,stac-utils,stac-geoparquet,gadomski
+147,Bump the python-minor-and-patch group with 3 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/147,2026-07-15T02:18:01Z,2026-07-15T11:16:04Z,stac-utils,stac-geoparquet,gadomski
+148,Bump types-requests from 2.33.0.20260518 to 2.33.0.20260712,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/148,2026-07-15T02:18:10Z,2026-07-15T11:15:50Z,stac-utils,stac-geoparquet,gadomski
+149,Bump pyarrow from 24.0.0 to 25.0.0,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/149,2026-07-15T02:18:25Z,2026-07-15T11:14:15Z,stac-utils,stac-geoparquet,gadomski
+151,"Importing stac-geoparquet BEFORE Prefect, causes conflicts with logs formatting",Issue,closed,NicholasPini,https://github.com/stac-utils/stac-geoparquet/issues/151,2026-07-16T09:25:06Z,2026-07-16T13:40:38Z,stac-utils,stac-geoparquet,gadomski
+153,Bump actions/setup-python from 6 to 7 in the actions group,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/153,2026-07-22T02:13:56Z,2026-07-22T11:00:31Z,stac-utils,stac-geoparquet,gadomski
+154,Bump the python-minor-and-patch group with 2 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/154,2026-07-22T02:18:03Z,2026-07-22T11:00:55Z,stac-utils,stac-geoparquet,gadomski
+155,Bump types-python-dateutil from 2.9.0.20260518 to 2.9.0.20260716,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/155,2026-07-22T02:18:32Z,2026-07-22T10:59:58Z,stac-utils,stac-geoparquet,gadomski
+156,Bump the python-minor-and-patch group with 2 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/156,2026-07-29T02:17:57Z,2026-07-29T11:42:41Z,stac-utils,stac-geoparquet,gadomski
+157,fix: null datetime columns written TZ-aware,PR,closed,ceholden,https://github.com/stac-utils/stac-geoparquet/pull/157,2026-08-03T23:22:53Z,2026-08-04T11:28:24Z,stac-utils,stac-geoparquet,gadomski
+158,Bump the python-minor-and-patch group with 2 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/stac-geoparquet/pull/158,2026-08-05T02:17:37Z,2026-08-12T02:18:02Z,stac-utils,stac-geoparquet,gadomski
+161,chore(main): release 0.8.2,PR,closed,stac-utils-release-bot[bot],https://github.com/stac-utils/stac-geoparquet/pull/161,2026-08-12T14:07:57Z,2026-08-12T14:11:13Z,stac-utils,stac-geoparquet,gadomski
+162,docs: remove duplicate changelog line,PR,closed,gadomski,https://github.com/stac-utils/stac-geoparquet/pull/162,2026-08-12T17:56:03Z,2026-09-17T17:59:56Z,stac-utils,stac-geoparquet,jsignell
+163,chore: pin github actions,PR,closed,gadomski,https://github.com/stac-utils/stac-geoparquet/pull/163,2026-08-12T17:58:24Z,2026-09-17T15:15:54Z,stac-utils,stac-geoparquet,jsignell
