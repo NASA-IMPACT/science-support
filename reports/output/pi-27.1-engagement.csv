@@ -1,0 +1,31 @@
+number,title,type,url,engagement_kinds,created_at,updated_at,organization,repository,contributor
+79,Update base image to 2026.10.21,PullRequest,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/79,"comment,review",2026-10-14T18:29:41Z,2026-10-26T14:43:41Z,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
+82,Include maap jupyter extensions,Issue,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/issues/82,opened,2026-11-05T21:31:29Z,2026-11-05T21:31:29Z,NASA-IMPACT,pangeo-notebook-veda-image,jsignell
+9245,Client API docs showing on Futures page (documentation),Issue,https://github.com/dask/dask/issues/9245,comment,2022-07-06T21:23:24Z,2026-11-13T12:39:06Z,dask,dask,jsignell
+679,Add useful Python library for satellite imagery and GIS visualization,Issue,https://github.com/pangeo-data/pangeo-docker-images/issues/679,comment,2026-10-16T20:47:16Z,2026-10-22T14:01:05Z,pangeo-data,pangeo-docker-images,jsignell
+11078,Improve IDE/Editor Support for External Accessors,Issue,https://github.com/pydata/xarray/issues/11078,comment,2026-01-09T19:07:15Z,2026-11-12T22:33:50Z,pydata,xarray,jsignell
+55,Need to add `file` extension recommendations,Issue,https://github.com/radiantearth/stac-best-practices/issues/55,comment,2026-10-06T21:57:43Z,2026-11-15T19:09:15Z,radiantearth,stac-best-practices,jsignell
+56,Discourage placeholder datetimes,PullRequest,https://github.com/radiantearth/stac-best-practices/pull/56,comment,2026-10-12T18:27:14Z,2026-10-19T18:38:47Z,radiantearth,stac-best-practices,jsignell
+1235,Separate media type for STAC?,Issue,https://github.com/radiantearth/stac-spec/issues/1235,comment,2023-06-07T09:09:47Z,2026-10-19T23:39:35Z,radiantearth,stac-spec,jsignell
+1397,Extension schemas shouldn't unnecessarily require `assets`,Issue,https://github.com/radiantearth/stac-spec/issues/1397,comment,2026-10-01T15:30:54Z,2026-10-19T16:19:02Z,radiantearth,stac-spec,jsignell
+1402,Clarify data value properties,PullRequest,https://github.com/radiantearth/stac-spec/pull/1402,"comment,review",2026-11-02T11:37:51Z,2026-11-04T15:05:40Z,radiantearth,stac-spec,jsignell
+448,Handling STAC extension version upgrades,Issue,https://github.com/stac-utils/pystac/issues/448,comment,2021-06-16T01:35:25Z,2026-11-02T17:07:57Z,stac-utils,pystac,jsignell
+1552,Support schema map for validation,Issue,https://github.com/stac-utils/pystac/issues/1552,comment,2025-04-21T12:56:19Z,2026-10-29T15:31:38Z,stac-utils,pystac,jsignell
+1798,chore: release main,PullRequest,https://github.com/stac-utils/pystac/pull/1798,"comment,review",2026-08-10T15:54:01Z,2026-11-04T16:15:06Z,stac-utils,pystac,jsignell
+1806,perf: asset deepcopy keeps owner,PullRequest,https://github.com/stac-utils/pystac/pull/1806,"comment,review",2026-09-13T11:03:10Z,2026-11-10T18:55:31Z,stac-utils,pystac,jsignell
+1807,feat(sar): updated to SAR STAC Extension v1.3.2,PullRequest,https://github.com/stac-utils/pystac/pull/1807,comment,2026-09-14T09:45:01Z,2026-11-17T10:33:42Z,stac-utils,pystac,jsignell
+1831,fix: address review of band support,PullRequest,https://github.com/stac-utils/pystac/pull/1831,"comment,review",2026-10-17T02:34:57Z,2026-11-04T18:59:06Z,stac-utils,pystac,jsignell
+1832,feat: add band data values and item asset definition bands,PullRequest,https://github.com/stac-utils/pystac/pull/1832,"comment,review",2026-10-17T02:34:59Z,2026-11-04T18:59:42Z,stac-utils,pystac,jsignell
+1833,feat: add helper to migrate extension bands to common bands,PullRequest,https://github.com/stac-utils/pystac/pull/1833,"comment,review",2026-10-17T02:35:01Z,2026-11-04T19:00:10Z,stac-utils,pystac,jsignell
+1834,feat!: support eo and raster v2.0.0 bands,PullRequest,https://github.com/stac-utils/pystac/pull/1834,"comment,review",2026-10-17T02:35:03Z,2026-11-04T19:02:43Z,stac-utils,pystac,jsignell
+1839,docs(fix): asv dev doesn't exist anymore,PullRequest,https://github.com/stac-utils/pystac/pull/1839,"comment,review",2026-10-20T23:53:48Z,2026-10-21T18:15:07Z,stac-utils,pystac,jsignell
+1847,chore: floor pystac-core at v1.15.2,PullRequest,https://github.com/stac-utils/pystac/pull/1847,"comment,review",2026-10-29T14:23:21Z,2026-10-29T14:29:12Z,stac-utils,pystac,jsignell
+1848,chore: exclude extensions for core package,PullRequest,https://github.com/stac-utils/pystac/pull/1848,"comment,review",2026-10-29T14:35:14Z,2026-10-29T15:02:30Z,stac-utils,pystac,jsignell
+1852,build(deps): bump the actions-deps group across 1 directory with 3 updates,PullRequest,https://github.com/stac-utils/pystac/pull/1852,comment,2026-11-02T14:24:09Z,2026-11-09T14:46:34Z,stac-utils,pystac,jsignell
+1854,Make it easier to turn off auto migration,Issue,https://github.com/stac-utils/pystac/issues/1854,opened,2026-11-06T16:18:06Z,2026-11-06T16:18:06Z,stac-utils,pystac,jsignell
+1857,"pystac 1.16.0 needs pystac-ext-* releases that ship `pystac/extensions/json-schema/`, but it declares no minimum versions for them",Issue,https://github.com/stac-utils/pystac/issues/1857,comment,2026-11-18T00:41:08Z,2026-11-19T14:26:43Z,stac-utils,pystac,jsignell
+1859,chore: release main,PullRequest,https://github.com/stac-utils/pystac/pull/1859,"comment,review",2026-11-18T21:21:21Z,2026-11-19T15:59:49Z,stac-utils,pystac,jsignell
+943,fix: remove pystac[validation] dependency,PullRequest,https://github.com/stac-utils/pystac-client/pull/943,"comment,review",2026-10-19T13:02:51Z,2026-10-19T16:08:46Z,stac-utils,pystac-client,jsignell
+946,release: v0.9.1,PullRequest,https://github.com/stac-utils/pystac-client/pull/946,"comment,review",2026-10-20T16:51:21Z,2026-10-20T21:05:43Z,stac-utils,pystac-client,jsignell
+950,Fix sqlite3 in memory DB usage.,PullRequest,https://github.com/stac-utils/pystac-client/pull/950,"comment,review",2026-10-29T07:01:12Z,2026-10-29T18:22:10Z,stac-utils,pystac-client,jsignell
+954,build(deps-dev): update geopandas requirement from ~=1.1.1 to ~=1.2.0,PullRequest,https://github.com/stac-utils/pystac-client/pull/954,comment,2026-11-03T02:12:48Z,2026-11-04T17:03:16Z,stac-utils,pystac-client,jsignell
