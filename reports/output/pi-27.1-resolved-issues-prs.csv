@@ -1,0 +1,21 @@
+number,title,type,state,author,url,created_at,updated_at,organization,repository,contributor
+79,Update base image to 2026.10.21,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/79,2026-10-14T18:29:41Z,2026-10-26T14:43:41Z,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
+680,Pin to pip>=26.2.2,PR,closed,weiji14,https://github.com/pangeo-data/pangeo-docker-images/pull/680,2026-10-21T09:14:58Z,2026-10-21T15:31:00Z,pangeo-data,pangeo-docker-images,jsignell
+11078,Improve IDE/Editor Support for External Accessors,Issue,closed,FBumann,https://github.com/pydata/xarray/issues/11078,2026-01-09T19:07:15Z,2026-11-12T22:33:50Z,pydata,xarray,jsignell
+1402,Clarify data value properties,PR,closed,m-mohr,https://github.com/radiantearth/stac-spec/pull/1402,2026-11-02T11:37:51Z,2026-11-04T15:05:40Z,radiantearth,stac-spec,jsignell
+1552,Support schema map for validation,Issue,closed,philvarner,https://github.com/stac-utils/pystac/issues/1552,2025-04-21T12:56:19Z,2026-10-29T15:31:38Z,stac-utils,pystac,jsignell
+1798,chore: release main,PR,closed,stac-utils-release-bot[bot],https://github.com/stac-utils/pystac/pull/1798,2026-08-10T15:54:01Z,2026-11-04T16:15:06Z,stac-utils,pystac,jsignell
+1817,Add optional allow-list for domains in stac_extensions,Issue,closed,gadomski,https://github.com/stac-utils/pystac/issues/1817,2026-10-01T16:19:00Z,2026-10-29T14:23:04Z,stac-utils,pystac,jsignell
+1831,fix: address review of band support,PR,closed,thomas-maschler,https://github.com/stac-utils/pystac/pull/1831,2026-10-17T02:34:57Z,2026-11-04T18:59:06Z,stac-utils,pystac,jsignell
+1832,feat: add band data values and item asset definition bands,PR,closed,thomas-maschler,https://github.com/stac-utils/pystac/pull/1832,2026-10-17T02:34:59Z,2026-11-04T18:59:42Z,stac-utils,pystac,jsignell
+1833,feat: add helper to migrate extension bands to common bands,PR,closed,thomas-maschler,https://github.com/stac-utils/pystac/pull/1833,2026-10-17T02:35:01Z,2026-11-04T19:00:10Z,stac-utils,pystac,jsignell
+1834,feat!: support eo and raster v2.0.0 bands,PR,closed,thomas-maschler,https://github.com/stac-utils/pystac/pull/1834,2026-10-17T02:35:03Z,2026-11-04T19:02:43Z,stac-utils,pystac,jsignell
+1839,docs(fix): asv dev doesn't exist anymore,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1839,2026-10-20T23:53:48Z,2026-10-21T18:15:07Z,stac-utils,pystac,jsignell
+1847,chore: floor pystac-core at v1.15.2,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1847,2026-10-29T14:23:21Z,2026-10-29T14:29:12Z,stac-utils,pystac,jsignell
+1848,chore: exclude extensions for core package,PR,closed,gadomski,https://github.com/stac-utils/pystac/pull/1848,2026-10-29T14:35:14Z,2026-10-29T15:02:30Z,stac-utils,pystac,jsignell
+1852,build(deps): bump the actions-deps group across 1 directory with 3 updates,PR,closed,dependabot[bot],https://github.com/stac-utils/pystac/pull/1852,2026-11-02T14:24:09Z,2026-11-09T14:46:34Z,stac-utils,pystac,jsignell
+1857,"pystac 1.16.0 needs pystac-ext-* releases that ship `pystac/extensions/json-schema/`, but it declares no minimum versions for them",Issue,closed,ishiland,https://github.com/stac-utils/pystac/issues/1857,2026-11-18T00:41:08Z,2026-11-19T14:26:43Z,stac-utils,pystac,jsignell
+1859,chore: release main,PR,closed,stac-utils-release-bot[bot],https://github.com/stac-utils/pystac/pull/1859,2026-11-18T21:21:21Z,2026-11-19T15:59:49Z,stac-utils,pystac,jsignell
+943,fix: remove pystac[validation] dependency,PR,closed,gadomski,https://github.com/stac-utils/pystac-client/pull/943,2026-10-19T13:02:51Z,2026-10-19T16:08:46Z,stac-utils,pystac-client,jsignell
+946,release: v0.9.1,PR,closed,gadomski,https://github.com/stac-utils/pystac-client/pull/946,2026-10-20T16:51:21Z,2026-10-20T21:05:43Z,stac-utils,pystac-client,jsignell
+950,Fix sqlite3 in memory DB usage.,PR,closed,avalentino,https://github.com/stac-utils/pystac-client/pull/950,2026-10-29T07:01:12Z,2026-10-29T18:22:10Z,stac-utils,pystac-client,jsignell

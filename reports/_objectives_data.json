@@ -456,5 +456,110 @@
         ]
       ]
     }
+  ],
+  "pi-27.1": [
+    {
+      "issue_number": 89,
+      "title": "[Sc] PI 27.1 Objective 1: Hub Upgrades",
+      "state": "open",
+      "state_reason": null,
+      "contributors": [
+        [
+          "Alex I. Mandel",
+          "wildintellect"
+        ],
+        [
+          "Julia Signell",
+          "jsignell"
+        ]
+      ],
+      "repos": [
+        [
+          "pangeo-data",
+          "pangeo-docker-images"
+        ],
+        [
+          "NASA-IMPACT",
+          "pangeo-notebook-veda-image"
+        ]
+      ]
+    },
+    {
+      "issue_number": 90,
+      "title": "[Sc] PI 27.1 Objective 2: Cloud Native Workflows",
+      "state": "open",
+      "state_reason": null,
+      "contributors": [
+        [
+          "Harshini ",
+          "HarshiniGirish"
+        ]
+      ],
+      "repos": [
+        [
+          "NASA-IMPACT",
+          "veda-docs"
+        ],
+        [
+          "MAAP-Project",
+          "maap-documentation"
+        ],
+        [
+          "cloudnativegeo",
+          "cloud-optimized-geospatial-formats-guide"
+        ]
+      ]
+    },
+    {
+      "issue_number": 91,
+      "title": "[Sc] PI 27.1 Objective 3: Open-Source Contributions",
+      "state": "open",
+      "state_reason": null,
+      "contributors": [
+        [
+          "Julia Signell",
+          "jsignell"
+        ]
+      ],
+      "repos": [
+        [
+          "radiantearth",
+          "stac-best-practices"
+        ],
+        [
+          "radiantearth",
+          "stac-spec"
+        ],
+        [
+          "dask",
+          "dask"
+        ],
+        [
+          "stac-utils",
+          "pystac"
+        ],
+        [
+          "stac-utils",
+          "pystac-client"
+        ],
+        [
+          "pydata",
+          "xarray"
+        ]
+      ]
+    },
+    {
+      "issue_number": 92,
+      "title": "[Sc] PI 27.1 Objective 4: Data Retention Policy",
+      "state": "open",
+      "state_reason": null,
+      "contributors": [
+        [
+          "Sheyenne Kirkland",
+          "smk0033"
+        ]
+      ],
+      "repos": []
+    }
   ]
 }
