@@ -7,6 +7,7 @@ number,title,type,url,engagement_kinds,created_at,updated_at,organization,reposi
 55,Need to add `file` extension recommendations,Issue,https://github.com/radiantearth/stac-best-practices/issues/55,comment,2026-10-06T21:57:43Z,2026-11-15T19:09:15Z,radiantearth,stac-best-practices,jsignell
 56,Discourage placeholder datetimes,PullRequest,https://github.com/radiantearth/stac-best-practices/pull/56,comment,2026-10-12T18:27:14Z,2026-10-19T18:38:47Z,radiantearth,stac-best-practices,jsignell
 1235,Separate media type for STAC?,Issue,https://github.com/radiantearth/stac-spec/issues/1235,comment,2023-06-07T09:09:47Z,2026-10-19T23:39:35Z,radiantearth,stac-spec,jsignell
+1381,Fix common schema typo,PullRequest,https://github.com/radiantearth/stac-spec/pull/1381,comment,2026-04-02T08:47:44Z,2026-11-20T14:23:54Z,radiantearth,stac-spec,jsignell
 1397,Extension schemas shouldn't unnecessarily require `assets`,Issue,https://github.com/radiantearth/stac-spec/issues/1397,comment,2026-10-01T15:30:54Z,2026-10-19T16:19:02Z,radiantearth,stac-spec,jsignell
 1402,Clarify data value properties,PullRequest,https://github.com/radiantearth/stac-spec/pull/1402,"comment,review",2026-11-02T11:37:51Z,2026-11-04T15:05:40Z,radiantearth,stac-spec,jsignell
 448,Handling STAC extension version upgrades,Issue,https://github.com/stac-utils/pystac/issues/448,comment,2021-06-16T01:35:25Z,2026-11-02T17:07:57Z,stac-utils,pystac,jsignell
