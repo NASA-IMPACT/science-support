@@ -2,6 +2,7 @@ number,title,type,state,author,url,created_at,updated_at,organization,repository
 79,Update base image to 2026.10.21,PR,closed,jsignell,https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/79,2026-10-14T18:29:41Z,2026-10-26T14:43:41Z,NASA-IMPACT,pangeo-notebook-veda-image,wildintellect
 680,Pin to pip>=26.2.2,PR,closed,weiji14,https://github.com/pangeo-data/pangeo-docker-images/pull/680,2026-10-21T09:14:58Z,2026-10-21T15:31:00Z,pangeo-data,pangeo-docker-images,jsignell
 11078,Improve IDE/Editor Support for External Accessors,Issue,closed,FBumann,https://github.com/pydata/xarray/issues/11078,2026-01-09T19:07:15Z,2026-11-12T22:33:50Z,pydata,xarray,jsignell
+1381,Fix common schema typo,PR,closed,sbrunato,https://github.com/radiantearth/stac-spec/pull/1381,2026-04-02T08:47:44Z,2026-11-20T14:23:54Z,radiantearth,stac-spec,jsignell
 1402,Clarify data value properties,PR,closed,m-mohr,https://github.com/radiantearth/stac-spec/pull/1402,2026-11-02T11:37:51Z,2026-11-04T15:05:40Z,radiantearth,stac-spec,jsignell
 1552,Support schema map for validation,Issue,closed,philvarner,https://github.com/stac-utils/pystac/issues/1552,2025-04-21T12:56:19Z,2026-10-29T15:31:38Z,stac-utils,pystac,jsignell
 1798,chore: release main,PR,closed,stac-utils-release-bot[bot],https://github.com/stac-utils/pystac/pull/1798,2026-08-10T15:54:01Z,2026-11-04T16:15:06Z,stac-utils,pystac,jsignell
